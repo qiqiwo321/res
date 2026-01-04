@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manorage>
+
+	<!-- 语言版本 
+		目前支持 简体中文(simple)
+		 		繁体中文(complex)
+	-->
+        <languageVesion>simple</languageVesion>
+        <isForeign>0</isForeign>
+        <!-- 静态config地址 -->
+        <configUrl>com/config.xml</configUrl>
+	<!--航海语言包装-->
+	<languageV>languageV.xml</languageV>
+        <!-- 主程序地址 -->
+        <initMainUrl>InitMain.swf</initMainUrl>
+        <!-- 静态staticInfo.swf地址 -->
+        <staticInfoUrl>StaticInfoBaidu201512231420.swf</staticInfoUrl>
+        <!-- 聊天 ChatClinet.swf -->
+        <chatClientUrl>com/ChatClient201401061048v2.swf</chatClientUrl>
+        <!-- 图片资源路径 -->
+        <manorUiUrl>manorUI201212101405.swf</manorUiUrl>
+        <!-- 语言文件SWF -->
+        <languageUrl>Language201405271100.swf</languageUrl>
+        <!-- 狩猎 killMouse.swf 路径 -->
+        <killMouseUrl>KillMouse0829.swf</killMouseUrl>
+        <!-- 采集pop.swf 路径 -->
+        <popUrl>Pop.swf</popUrl>
+        <!-- 开场动画navigateVideo.swf 路径 -->
+        <navigateVideoUrl>navigateVideo.swf</navigateVideoUrl>
+        <!-- 新手向导ManorGuide.swf 路径 -->
+        <manorGuideUrl>ManorGuide.swf</manorGuideUrl>
+        <!-- 新手指引NewPlayerGuide.swf 路径 -->
+        <newPlayerGuide>NewPlayerGuide1227.swf</newPlayerGuide>
+        <!-- 种植养殖SWF-->
+        <farmSwfUrl>plantAndFarmSkin1018.swf</farmSwfUrl>	
+	<!-- 静态Voyage.swf路径 -->
+	<voyageUrl>Voyage201311251707.swf</voyageUrl>
+	<!-- 静态VoyageInfo.swf路径 -->
+	<voyageInfoUrl>VoyageInfo201207121509.swf</voyageInfoUrl>
+	<!-- 长期活动静态数据 -->
+	<chargeInfoUrl>com/ChargeInfo201209181920.swf</chargeInfoUrl>
+	
+	<!-- 静态itemInfo.swf路径 -->
+        <staticItemInfo>com/itemInfo11.swf</staticItemInfo>
+        <!-- 静态taskInfo.swf路径 -->
+        <staticTaskInfo>com/taskInfo11.swf</staticTaskInfo>
+	<!-- 静态SaveHouseInfo.swf路径 -->
+	<saveHouseInfo>com/SaveHouseInfo11.swf</saveHouseInfo>
+	<!-- 静态StaticInfoMagicHouse.swf路径 -->
+	<summonInfoUrl>com/StaticInfoMagicHouse201210191153.swf</summonInfoUrl>
+			<!-- 静态MagicHouse.swf路径 -->
+	<magicHousesUrl>MagicHouse201302070937.swf</magicHousesUrl>
+
+
+	
+	<!-- 端午主程序目录-->
+	<yanghuiUrl>banquet/Main_Feast0627.swf</yanghuiUrl>
+	<!--端午主程序目录 -->
+	<banquetRootUrl>banquet/</banquetRootUrl>
+	 	<!-- 静态图鉴.swf路径 -->
+		<pictureUrl>PictureHandbook201405091406.swf</pictureUrl>
+			<!-- 静态图鉴路径 -->
+		<pictureInfoUrl>com/PictureHandbookInfo201405091406.swf</pictureInfoUrl>
+		<!--图鉴语言配置 -->
+	     <languagePB>language/languagePB201405091406.xml</languagePB>
+	
+	<!-- 静态ID 配置 -->
+	<!-- 国王贸易特令 -->
+	<staticGwmytl>1012</staticGwmytl>
+	<!-- 扩充魔法齿轮 -->
+	<staticKcmfcl>1009</staticKcmfcl>
+	<!-- 皇家贸易证 -->
+	<staticHjmyz>1011</staticHjmyz>
+	<!-- 西蒙的手稿 -->
+	<staticXmdsg>1891</staticXmdsg>
+	<!-- 催速魔法剂 -->
+	<staticCsmfj>651</staticCsmfj>
+	<!-- 神奇魔法剂 -->
+	<staticSqmfj>652</staticSqmfj>
+	
+	<!--1初始化登录-->
+ 	<init>
+  	</init>
+		
+	<!--爵位配置信息-->
+	<knighthood>乡绅,200||绅士,500||骑士,800||二等男爵,1200||男爵,1500||二等子爵,2100||子爵,5300||二等伯爵,8500||伯爵,13600||二等侯爵,21800||侯爵,35000||二等公爵,56200||公爵,90200||终身公爵,144800||世袭公爵,232600||大公爵,367800||边境亲王,574000||宫廷亲王,879200||辅国亲王,1320500||大亲王,1944600</knighthood>
+	
+	<!--2新手指引 -->
+  	<newhelp>baidu</newhelp>
+  	<guideMoney>30004,2004,2004,2004,2004,2004</guideMoney>
+		
+	<!-- 3好友 -->
+   	<friend>
+   		
+   	</friend>
+		
+	<!-- 4种植 -->
+   	<plant>
+   		<addLandNewPrice>0</addLandNewPrice>
+   		<newPrice>1000</newPrice>
+   	</plant>
+		
+	<!-- 5养殖 -->
+   	<animal>
+ 		<addLandNewPrice>0</addLandNewPrice>
+   		<newPrice>1000</newPrice>  
+   	</animal>    
+		
+	<!-- 6寄售-->
+	<consignment>
+		
+	</consignment>
+	
+	<!-- 7商店 -->
+    <shoping>
+    	<addSpecial>1</addSpecial>
+    </shoping>
+		
+	<!-- 8加工 -->
+	<create>
+		
+	</create>
+	
+	<!-- 7采集 -->
+	<collection>
+		<denseForest>1</denseForest>	
+	</collection>
+	
+	<!-- 10狩猎 -->
+	<hunt>
+		<!-- 狩猎类型  -->
+		<huntType>1</huntType>
+	</hunt>
+	
+	<!-- 11任务 -->
+	<task>
+		
+	</task>
+	
+	<!-- 12背包 -->
+	<package>
+		
+	</package>
+	
+	<!-- 13仓库 -->
+	
+	<depot>
+	
+	</depot>
+	
+	<!-- 14礼包 -->
+	<chest>
+		
+	</chest>	
+	<!-- 15排行 -->
+	
+	<rank>
+		
+	</rank>
+	
+	<!-- 16商会 -->
+	<commercer>
+		<isOpen>1</isOpen>
+		<businessShop>1</businessShop>
+	</commercer>
+
+        <!-- 魔法屋 -->
+        <magicHouse>
+                <isOpen>1</isOpen>
+        </magicHouse>
+	
+	<!-- 17特价区 -->
+	<discount>
+	
+	</discount>
+	<!-- 消息 -->
+	<message>
+		<isOpen>0</isOpen>
+	</message>
+	<!-- 活动 -->
+	<activity>
+		<isOpen>1</isOpen> <!-- 是否打开 -->
+		<addr>baidu/gameHero.xml</addr>
+	</activity>
+	<!-- 主界面问题提示 -->
+	<mainPanelWordTip>
+		<isOpen>1</isOpen>
+	</mainPanelWordTip>
+	
+	<!--转盘开关-->
+	<turntable>
+		<isOpen>1</isOpen>
+	</turntable>
+        <!-- 婚礼-->
+        <marry>
+                <isOpen>1</isOpen>
+        </marry>
+	<!-- 201108 消费活动-不安的莱孟郡  -->
+	<action_AugConsume>
+		<startTime>2011-08-30-0-0</startTime>
+		<endTime>2080-09-05-23-59</endTime>
+	</action_AugConsume>
+	
+	<!-- 卡牌开关 -->
+	<card>
+		<isOpen>0</isOpen>
+	</card>
+	<!-- 收藏阁 -->
+	<saveHouse>
+		<isOpen>1</isOpen> <!-- 0代表关 1代表开-->
+	</saveHouse>
+
+	<!-- 航海 -->
+	<voyage>
+   		<isOpen>1</isOpen>
+	</voyage>
+	  <!-- 图鉴 -->
+		<picture>
+	<isOpen>1</isOpen>
+	   </picture>
+</manorage>
+

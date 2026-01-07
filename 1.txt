@@ -1,0 +1,12 @@
+<command><msgType>162</msgType><userId/><name>5a49-6843</name><id/><quality/><numb/><a>45</a><y>18888881009118543</y><z>51d92be1c60d1db1d2e5e7a07da55b26</z><b>30</b><ww>462c332bde71b1cc2d91fd941f33bfc6</ww></command>
+
+
+Manor 300
+
+public static const RED_COLOR:String = "0xFF0000";
+      
+      public static const GREEN_COLOR:String = "0x00FF00";
+      
+      public static const BLUR_COLOR:String = "0x0000FF";
+      
+      public static const MD_COLOR:String = "0xA0A0A0";

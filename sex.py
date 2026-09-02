@@ -34,6 +34,11 @@ ADD_ANIMAL =  "http://coml.manorage.com/manorage/water!addAnimal.comapp"
 SUBMIT_PLANT = "http://coml.manorage.com/manorage/task_xbc!submitTask.comapp"
 INIT_USER_TASK = "http://coml.manorage.com/manorage/task_xbc!initUserTask.comapp"
 OPEN_RARITY_CHESTS = "http://coml.manorage.com/manorage/chests!openRarityChests.comapp"
+GET_SH_ITEEM="http://coml.manorage.com/manorage/commercerActionXmx!getShItem.comapp"
+ASSIGN_ITEM="http://coml.manorage.com/manorage/commercerActionXmx!assignItem.comapp"
+ADD_CONSIGNMENT="http://coml.manorage.com/manorage/consignment_xmx!addConsignment.comapp"
+GET_FRIEND_CONSIGN="http://coml.manorage.com/manorage/consignment!getFriendConsign.comapp"
+CONSIGNMENT_BUY="http://coml.manorage.com/manorage/consignment_xmx!consigenmentBuy.comapp"
 
 ITEM_QUALITY_MAP = {'100228': '0', '100225': '0', '10006801': 'no', '10008001': 'no', '100081': '0', '10009001': 'no', '10009201': 'no', '10009401': 'no', '10009801': 'no', '10009802': 'no', '10010001': 'no', '100101': '0', '10010201': 'no', '10010401': 'no', '10010801': 'no', '100124': '0', '100126': '0', '100127': '0', '100141': '0', '100142': '0', '100144': '0', '100145': '0', '100164': '0', '100165': '0', '100166': '0', '100168': '0', '100169': '0', '100172': '0', '100181': '0', '100183': '0', '100184': '0', '100201': '0', '100202': '0', '100203': '0', '100204': '0', '100206': '0', '100207': '0', '100208': '0', '100223': '0', '100224': '0', '100227': '0', '100229': '0', '100230': '0', '100231': '0', '100235': '0', '100236': '0', '100237': '0', '100239': '0', '100240': '0', '100263': '0', '100281': '0', '100301': '0', '100361': '0', '100390': '0', '100391': '0', '100392': '0', '100393': '0', '100394': '0', '100395': '0', '100397': '0', '100403': '0', '100406': '0', '100409': '0', '100410': '0', '100412': '0', '100413': '0', '100414': '0', '100415': '0', '100418': '0', '100419': '0', '100420': '0', '100542': '0', '100543': '0', '100544': '0', '100545': '0', '100546': '0', '100547': '0', '100595': 'no', '100597': 'no', '100700': 'no', '100701': 'no', '100702': 'no', '100703': 'no', '100746': 'no', '100748': 'no', '1009': 'no', '1010': 'no', '1011': 'no', '1012': 'no', '1028': 'no', '1029': 'no', '1030': 'no', '10305601': 'no', '10307001': 'no', '10307501': 'no', '10308001': 'no', '10308501': 'no', '10309001': 'no', '10309301': 'no', '10309601': 'no', '10309701': 'no', '10310001': 'no', '10310101': 'no', '10310401': 'no', '10310501': 'no', '10310502': 'no', '1035': 'no', '1036': 'no', '1089': 'no', '11100154': 'no', '11100503': 'no', '11100704': 'no', '11100714': 'no', '11100715': 'no', '11100716': 'no', '11100809': 'no', '11101207': 'no', '11101218': 'no', '11101219': 'no', '11101222': 'no', '11101223': 'no', '11101770': 'no', '11101887': 'no', '11101892': 'no', '11101894': 'no', '11200209': '0', '11200301': '0', '12400401': 'no', '12500001': 'no', '1473': 'no', '1475': 'no', '1483': 'no', '1514': 'no', '1592': 'no', '1598': 'no', '1605': 'no', '1606': 'no', '1607': 'no', '1608': 'no', '1731': 'no', '1752': 'no', '1754': 'no', '1756': 'no', '1770': 'no', '1830': 'no', '1890': 'no', '200012': 'no', '200051': 'no', '450': 'no', '554': 'no', '557': 'no', '560': 'no', '562': 'no', '563': 'no', '564': 'no', '566': 'no', '568': 'no', '569': 'no', '571': 'no', '576': 'no', '578': 'no', '580': 'no', '582': 'no', '584': 'no', '585': 'no', '589': 'no', '590': 'no', '592': 'no', '606': 'no', '608': 'no', '610': 'no', '612': 'no', '614': 'no', '630': 'no', '632': 'no', '634': 'no', '636': 'no', '637': 'no', '639': 'no', '642': 'no', '644': 'no', '651': 'no', '652': 'no', '668': 'no', '672': 'no', '676': 'no', '678': 'no', '680': 'no', '682': 'no', '684': 'no', '686': 'no', '689': 'no', '691': 'no', '693': 'no', '695': 'no', '700': 'no', '716': 'no', '720': 'no', '721': 'no', '723': 'no', '724': 'no', '725': 'no', '726': 'no', '731': 'no', '810': 'no', '814': 'no', '816': 'no', '820': 'no', '825': 'no', '828': 'no', '830': 'no', '837': 'no', '839': 'no', '842': 'no', '843': 'no', '846': 'no', '848': 'no', '850': 'no', '852': 'no', '855': 'no', '857': 'no', '859': 'no', '861': 'no', '864': 'no', '866': 'no', '870': 'no', '873': 'no', '877': 'no', '879': 'no', '881': 'no', '888': 'no', '890': 'no', '908': 'no', '948': 'no', '950': 'no', '100596': '0', '100598': '0', '100747': '0', '100749': '0', '11101204': '0', '11101509': '0', '11300007': '0', '11306801': '0', '11307301': '0', '11307801': '0', '11308001': '0', '11308301': '0', '11308801': '0', '11309001': '0', '11309401': '0', '11309801': '0', '11309802': '0', '11310001': '0', '11310201': '0', '11310401': '0', '11310801': '0', '11405601': '0', '11407001': '0', '11407501': '0', '11408001': '0', '11408501': '0', '11409001': '0', '11409301': '0', '11409601': '0', '11409701': '0', '11410001': '0', '11410101': '0', '11410401': '0', '11410501': '0', '11410502': '0', '1474': '0', '1476': '0', '1484': '0', '1509': '0', '1523': '0', '1524': '0', '1526': '0', '1527': '0', '1528': '0', '1529': '0', '1530': '0', '1531': '0', '1532': '0', '1642': '0', '1643': '0', '1732': '0', '1751': '0', '1753': '0', '1755': '0', '1757': '0', '1771': '0', '1831': '0', '1872': '0', '1873': '0', '200050': '0', '200052': '0', '558': '0', '561': '0', '565': '0', '567': '0', '570': '0', '572': '0', '574': '0', '577': '0', '581': '0', '583': '0', '586': '0', '588': '0', '591': '0', '593': '0', '607': '0', '609': '0', '611': '0', '613': '0', '615': '0', '629': '0', '631': '0', '633': '0', '635': '0', '638': '0', '641': '0', '671': '0', '673': '0', '677': '0', '679': '0', '681': '0', '683': '0', '685': '0', '687': '0', '690': '0', '692': '0', '694': '0', '696': '0', '699': '0', '701': '0', '709': '0', '727': '0', '728': '0', '729': '0', '730': '0', '809': '0', '811': '0', '815': '0', '817': '0', '821': '0', '826': '0', '829': '0', '831': '0', '833': '0', '835': '0', '838': '0', '840': '0', '844': '0', '845': '0', '847': '0', '849': '0', '851': '0', '853': '0', '856': '0', '858': '0', '860': '0', '862': '0', '865': '0', '867': '0', '869': '0', '871': '0', '874': '0', '878': '0', '880': '0', '882': '0', '889': '0', '891': '0', '909': '0', '931': '0', '932': '0', '933': '0', '949': '0', '951': '0', '100171': '0', '100182': '0', '1032': 'no', '11101824': 'no', '11101891': 'no', '834': 'no', '868': 'no', '11300010': '0', '1412': 'no', '573': 'no', '587': 'no', '640': 'no', '698': 'no', '832': 'no', '1750': 'no', '100398': '0', '100400': '0', '100401': '0', '808': 'no', '100241': '0', '11101888': 'no', '669': '0', '11300015': '0', '11101889': 'no', '628': 'no', '101007': 'no', '11101719': 'no', '101009': 'no'}
 
@@ -44,143 +49,143 @@ ANIMAL_TYPE_MAP = {'668': '1', '670': '1', '672': '1', '676': '1', '678': '1', '
 USER_ITEM_MAP = {
 'qiqiwo321': '10007301,10006801,10307001,10307501',  # 大蒜 红加仑 渡渡鸟  欧洲盘羊
 'shifangfozu1': '950,100595,100597,10305601',    # 大麦 覆盆子 榛鸡  旱獭
-'shifangfozu2': '1754,1756,1830,1752',    # 纸莎草 无花果 雷鸟  高加索野牛
-'shifangfozu3': '1754,1756,1830,1752',
-'shifangfozu4': '1754,1756,1830,1752',
-'shifangfozu5': '1754,1756,1830,1752',
-'shifangfozu6': '1754,1756,1830,1752',
-'shifangfozu7': '1754,1756,1830,1752',
-'shifangfozu8': '1754,1756,1830,1752',
-'shifangfozu9': '1754,1756,1830,1752',
-'shifangfozu10': '1754,1756,1830,1752',
-'shifangfozu11': '1754,1756,1830,1752',
+'shifangfozu2': '950,1756,1830,1752',    # 大麦 无花果 雷鸟  高加索野牛
+'shifangfozu3': '950,1756,1830,1752',
+'shifangfozu4': '950,1756,1830,1752',
+'shifangfozu5': '950,1756,1830,1752',
+'shifangfozu6': '950,1756,1830,1752',
+'shifangfozu7': '950,1756,1830,1752',
+'shifangfozu8': '950,1756,1830,1752',
+'shifangfozu9': '950,1756,1830,1752',
+'shifangfozu10': '950,1756,1830,1752',
+'shifangfozu11': '1754,1756,1830,1752', # 纸莎草 无花果 雷鸟  高加索野牛
 'shifangfozu12': '1754,1756,1830,1752',
 'shifangfozu13': '1754,1756,1830,1752',
 'shifangfozu14': '1754,1756,1830,1752',
 'shifangfozu15': '1754,1756,1830,1752',
 'shifangfozu16': '1754,1756,1830,1752',
-'shifangfozu17': '1754,881,1750,1752',   # 纸莎草 黑加仑子 鹌鹑 高加索野牛
-'shifangfozu18': '1754,881,1750,1752',
-'shifangfozu19': '1754,881,1750,1752',
-'shifangfozu20': '1754,881,1750,1752',
-'shifangfozu21': '1754,881,1750,1752',
-'shifangfozu22': '1754,881,1750,1752',
-'shifangfozu23': '1754,881,1750,1752',
-'shifangfozu24': '1754,881,1750,1752',
-'shifangfozu25': '1754,881,1750,1752',
-'shifangfozu26': '1754,881,1750,1752',
-'shifangfozu27': '1754,881,1750,1752',
-'shifangfozu28': '1754,881,1750,1752',
-'shifangfozu29': '1754,881,1750,1752',
-'shifangfozu30': '1754,881,1750,1752',
-'shifangfozu31': '1754,881,1750,1752',
-'shifangfozu32': '1754,881,1750,1752',
-'shifangfozu33': '1754,881,1750,1752',
-'shifangfozu34': '1754,881,1750,1752',
-'shifangfozu35': '850,881,1750,873',  # 秋葵 黑加仑子 鹌鹑 雪兔
-'shifangfozu36': '850,881,1750,873',
-'shifangfozu37': '850,881,1750,873',
-'shifangfozu38': '850,881,1750,873',
-'shifangfozu39': '850,881,1750,873',
-'shifangfozu40': '850,881,1750,873',
-'shifangfozu41': '850,881,1750,873',
-'shifangfozu42': '850,881,1750,873',
-'shifangfozu43': '850,881,1750,873',
-'shifangfozu44': '850,881,1750,873',
-'shifangfozu45': '850,881,1750,873',
-'shifangfozu46': '850,881,1750,873',
-'shifangfozu47': '850,881,1750,873',
-'shifangfozu48': '850,881,1750,873',
-'shifangfozu49': '850,881,1750,873',
-'shifangfozu50': '850,881,1750,873',
-'shifangfozu51': '850,881,1750,873',
-'shifangfozu52': '850,881,1750,873',
-'shifangfozu53': '850,881,1750,873',
-'shifangfozu54': '850,881,1750,873',
-'shifangfozu55': '850,881,1750,873',
-'shifangfozu56': '584,610,693,820',  # 小麦 塞米龙 杂斑鸡 伊比利亚黑猪
-'shifangfozu57': '584,610,693,820',
-'shifangfozu58': '584,610,693,820',
-'shifangfozu59': '584,610,693,820',
-'shifangfozu60': '584,610,693,820',
-'shifangfozu61': '584,610,693,820',
-'shifangfozu62': '584,610,693,820',
-'shifangfozu63': '584,610,693,820',
-'shifangfozu64': '584,610,693,820',
-'shifangfozu65': '584,610,693,820',
-'shifangfozu66': '584,630,693,832',  # 小麦 梅洛 杂斑鸡 皮埃蒙特
-'shifangfozu67': '584,630,693,832',
-'shifangfozu68': '584,630,693,832',
-'shifangfozu69': '584,630,693,832',
-'shifangfozu70': '584,630,693,832',
-'shifangfozu71': '584,630,693,832',
-'shifangfozu72': '584,630,693,832',
-'shifangfozu73': '584,630,693,832',
-'shifangfozu74': '584,630,693,832',
-'shifangfozu75': '566,630,693,686',  # 玉米 梅洛 杂斑鸡 奶牛
-'shifangfozu76': '566,630,693,686',
-'shifangfozu77': '566,630,693,686',
-'shifangfozu78': '566,630,693,686',
-'shifangfozu79': '566,630,693,686',
-'shifangfozu80': '566,630,693,686',
-'shifangfozu81': '566,630,693,686',
-'shifangfozu82': '566,630,693,686',
-'shifangfozu83': '566,630,693,686',
-'shifangfozu84': '580,630,695,689',   # 洋葱 梅洛 杂斑鸭 西蒙塔尔牛
-'shifangfozu85': '580,630,695,689',
-'shifangfozu86': '580,630,695,689',
-'shifangfozu87': '580,630,695,689',
-'shifangfozu88': '580,630,695,689',
-'shifangfozu89': '580,630,695,689',
-'shifangfozu90': '580,630,695,689',
-'shifangfozu91': '580,630,695,689',
-'shifangfozu92': '580,630,695,689',
-'shifangfozu93': '580,630,695,689',
-'shifangfozu94': '580,630,695,689',
-'shifangfozu95': '580,630,695,689',
-'shifangfozu96': '580,630,695,689',
-'shifangfozu97': '580,630,695,689',
-'shifangfozu98': '580,630,695,689',
-'shifangfozu99': '580,630,695,689',
-'shifangfozu100': '580,630,695,689',
-'shifangfozu101': '580,630,695,689',
-'shifangfozu102': '580,630,695,689',
-'shifangfozu103': '580,630,695,689',
-'shifangfozu104': '580,630,695,689',
-'shifangfozu105': '580,630,695,689',
-'shifangfozu106': '580,630,695,689',
-'shifangfozu107': '580,630,695,689',
-'shifangfozu108': '580,630,695,689',
-'shifangfozu109': '580,630,695,689',
-'shifangfozu110': '580,630,695,689',
-'shifangfozu111': '580,630,695,689',
-'shifangfozu112': '580,630,695,689',
-'shifangfozu113': '580,630,695,689',
-'shifangfozu114': '580,630,695,689',
-'shifangfozu115': '580,630,695,689',
-'shifangfozu116': '580,630,695,689',
-'shifangfozu117': '580,630,695,689',
-'shifangfozu118': '580,630,695,689',
-'shifangfozu119': '580,630,695,689',
-'shifangfozu120': '580,630,695,689',
-'shifangfozu121': '580,630,695,689',
-'shifangfozu122': '580,630,695,689',
-'shifangfozu123': '580,630,695,689',
-'shifangfozu124': '580,630,695,689',
-'shifangfozu125': '580,630,695,689',
-'shifangfozu126': '580,630,695,689',
-'shifangfozu127': '580,630,695,689',
-'shifangfozu128': '580,630,695,689',
-'shifangfozu129': '580,630,695,689',
-'shifangfozu130': '580,630,695,689',
-'shifangfozu131': '580,630,695,689',
-'shifangfozu132': '580,630,695,689',
-'shifangfozu133': '580,630,695,689',
-'shifangfozu134': '580,630,695,689',
-'shifangfozu135': '580,630,695,689',
-'shifangfozu136': '580,630,695,689',
-'shifangfozu137': '580,630,695,689',
-'shifangfozu138': '580,630,695,689'
+'shifangfozu17': '1754,1756,1750,1752',   # 纸莎草 无花果 鹌鹑 高加索野牛
+'shifangfozu18': '1754,1756,1750,1752',
+'shifangfozu19': '1754,1756,1750,1752',
+'shifangfozu20': '1754,1756,1750,1752',
+'shifangfozu21': '1754,1756,1750,1752',
+'shifangfozu22': '1754,1756,1750,1752',
+'shifangfozu23': '1754,1756,1750,1752',
+'shifangfozu24': '1754,1756,1750,1752',
+'shifangfozu25': '1754,1756,1750,1752',
+'shifangfozu26': '1754,1756,1750,1752',
+'shifangfozu27': '1754,1756,1750,1752',
+'shifangfozu28': '1754,1756,1750,1752',
+'shifangfozu29': '1754,1756,1750,1752',
+'shifangfozu30': '1754,1756,1750,1752',
+'shifangfozu31': '1754,1756,1750,1752',
+'shifangfozu32': '1754,1756,1750,1752',
+'shifangfozu33': '1754,1756,1750,1752',
+'shifangfozu34': '1754,1756,1750,1752',
+'shifangfozu35': '1754,1756,1750,1752',
+'shifangfozu36': '1754,1756,1750,1752',
+'shifangfozu37': '1754,1756,1750,1752',
+'shifangfozu38': '1754,1756,1750,1752',
+'shifangfozu39': '1754,1756,1750,1752',
+'shifangfozu40': '1754,1756,1750,1752',
+'shifangfozu41': '1754,1756,1750,1752',
+'shifangfozu42': '1754,1756,1750,1752',
+'shifangfozu43': '1754,1756,1750,1752',
+'shifangfozu44': '1754,1756,1750,1752',
+'shifangfozu45': '1754,1756,1750,1752',
+'shifangfozu46': '1754,1756,1750,1752',
+'shifangfozu47': '1754,1756,1750,1752',
+'shifangfozu48': '1754,1756,1750,1752',
+'shifangfozu49': '1754,1756,1750,1752',
+'shifangfozu50': '1754,1756,1750,1752',
+'shifangfozu51': '1754,1756,1750,1752',
+'shifangfozu52': '1754,1756,1750,1752',
+'shifangfozu53': '1754,1756,1750,1752',
+'shifangfozu54': '1754,1756,1750,1752',
+'shifangfozu55': '1754,1756,1750,1752',
+'shifangfozu56': '837,877,814,668',  # 芦笋 橄榄 瘤头鸭 黄牛
+'shifangfozu57': '837,877,814,668',
+'shifangfozu58': '837,877,814,668',
+'shifangfozu59': '837,877,814,668',
+'shifangfozu60': '837,877,814,668',
+'shifangfozu61': '837,877,814,668',
+'shifangfozu62': '837,877,814,668',
+'shifangfozu63': '837,877,814,668',
+'shifangfozu64': '837,877,814,668',
+'shifangfozu65': '837,877,814,668',
+'shifangfozu66': '837,877,814,668',
+'shifangfozu67': '837,877,814,668',
+'shifangfozu68': '837,877,814,668',
+'shifangfozu69': '837,877,814,668',
+'shifangfozu70': '837,877,814,668',
+'shifangfozu71': '837,877,814,668',
+'shifangfozu72': '837,877,814,668',
+'shifangfozu73': '837,877,814,668',
+'shifangfozu74': '837,877,814,668',
+'shifangfozu75': '837,877,814,668',
+'shifangfozu76': '837,877,814,668',
+'shifangfozu77': '837,877,814,668',
+'shifangfozu78': '837,877,814,668',
+'shifangfozu79': '837,877,814,668',
+'shifangfozu80': '837,877,814,668',
+'shifangfozu81': '837,877,814,668',
+'shifangfozu82': '837,877,814,668',
+'shifangfozu83': '837,877,814,668',
+'shifangfozu84': '587,640,691,670',   # 甜椒 椰枣 荷兰白火鸡 法国垂耳兔
+'shifangfozu85': '587,640,691,670',
+'shifangfozu86': '587,640,691,670',
+'shifangfozu87': '587,640,691,670',
+'shifangfozu88': '587,640,691,670',
+'shifangfozu89': '587,640,691,670',
+'shifangfozu90': '587,640,691,670',
+'shifangfozu91': '587,640,691,670',
+'shifangfozu92': '587,640,691,670',
+'shifangfozu93': '587,640,691,670',
+'shifangfozu94': '587,640,691,670',
+'shifangfozu95': '587,640,691,670',
+'shifangfozu96': '587,640,691,670',
+'shifangfozu97': '587,640,691,670',
+'shifangfozu98': '587,640,691,670',
+'shifangfozu99': '587,640,691,670',
+'shifangfozu100': '587,640,691,670',
+'shifangfozu101': '587,640,691,670',
+'shifangfozu102': '587,640,691,670',
+'shifangfozu103': '587,640,691,670',
+'shifangfozu104': '587,640,691,670',
+'shifangfozu105': '587,640,691,670',
+'shifangfozu106': '587,640,691,670',
+'shifangfozu107': '587,640,691,670',
+'shifangfozu108': '587,640,691,670',
+'shifangfozu109': '587,640,691,670',
+'shifangfozu110': '587,640,691,670',
+'shifangfozu111': '587,640,691,670',
+'shifangfozu112': '587,640,691,670',
+'shifangfozu113': '587,640,691,670',
+'shifangfozu114': '587,640,691,670',
+'shifangfozu115': '587,640,691,670',
+'shifangfozu116': '587,640,691,670',
+'shifangfozu117': '587,640,691,670',
+'shifangfozu118': '587,640,691,670',
+'shifangfozu119': '587,640,691,670',
+'shifangfozu120': '587,640,691,670',
+'shifangfozu121': '587,640,691,670',
+'shifangfozu122': '587,640,691,670',
+'shifangfozu123': '587,640,691,670',
+'shifangfozu124': '587,640,691,670',
+'shifangfozu125': '587,640,691,670',
+'shifangfozu126': '587,640,691,670',
+'shifangfozu127': '587,640,691,670',
+'shifangfozu128': '587,640,691,670',
+'shifangfozu129': '587,640,691,670',
+'shifangfozu130': '587,640,691,670',
+'shifangfozu131': '587,640,691,670',
+'shifangfozu132': '587,640,691,670',
+'shifangfozu133': '587,640,691,670',
+'shifangfozu134': '587,640,691,670',
+'shifangfozu135': '587,640,691,670',
+'shifangfozu136': '587,640,691,670',
+'shifangfozu137': '587,640,691,670',
+'shifangfozu138': '587,640,691,670'
 }
 
 DAILY_TASK = {'959', '931', '954', '10205602', '891', '978', '287', '935', '10206001', '10204202', '914', '953', '629', '921', '903', '10203301', '10202202', '222', '979', '942', '10204001', '10204002', '970', '927', '957', '905', '224', '284', '10206801', '611', '984', '280', '917', '972', '912', '975', '982', '10204503', '946', '10201302', '980', '10202901', '10207001', '627', '933', '10202501', '901', '948', '625', '632', '631', '989', '291', '934', '10203501', '10205801', '221', '10207501', '10203101', '932', '896', '949', '973', '941', '10207304', '895', '546', '911', '612', '910', '227', '620', '10204502', '890', '892', '897', '963', '920', '10202201', '965', '10203001', '10204004', '967', '282', '295', '951', '977', '623', '626', '183', '983', '628', '10204003', '633', '936', '919', '906', '907', '987', '184', '898', '10207301', '913', '938', '893', '226', '986', '923', '952', '613', '985', '950', '966', '10207302', '902', '10206501', '958', '964', '960', '10205601', '974', '918', '969', '915', '943', '894', '981', '962', '10201301', '630', '10207303', '899', '10208001', '930', '956', '10205001', '916', '908', '939', '955', '610', '945', '223', '545', '940', '10204203', '988', '928', '298', '929', '10206301', '925', '278', '971', '904', '937', '947', '10204501', '909', '618', '922', '976', '10202001', '10207502', '619', '944', '622', '624', '961', '10204201', '621', '968', '900', '10204204', '926', '10203502', '10205301', '924', '614', '279'}
@@ -493,9 +498,9 @@ def refresh_plant_again(user: UserInfo, account):
     items = itemStr.split(",")
     earth_num = len(earthPlantied.split(","))
     titan_num = len(titanPlantied.split(","))
-    if earthPlantied == "no" or  earth_num < len(titanHaveArr):
+    if earthPlantied == "no" or  earth_num < len(earthHaveArr):
         to_plant(user, earthHaveArr, items[0], 0)
-    if titanPlantied == "no" or titan_num < len(earthHaveArr):
+    if titanPlantied == "no" or titan_num < len(titanHaveArr):
         to_plant(user, titanHaveArr, items[1], 1)
 
 
@@ -830,13 +835,10 @@ def marquis(user: UserInfo):
 def exec_action(user: UserInfo):
     # # 2. 按爵位分支执行逻辑
     if user.e in ["终身公爵", "侯爵", "二等公爵", "公爵"]:
-        print("marquis")
         marquis(user)
     elif user.e in ["伯爵", "二等侯爵"]:
-        print("count")
         count(user)
-    elif user.e in ["二等伯爵", "子爵", "二等子爵"]:
-        print("countLevel2")
+    elif user.e in ["二等伯爵", "子爵", "二等子爵", "男爵"]:
         count_level2(user)
     else:
         print("爵位不匹配")
@@ -990,7 +992,6 @@ def main(account, method_type):
                     b = match[0][55:a - 2].split("&sessionId=")
                     user = get_user_info(b[0], b[1])
                     print(f"{account}, {user.name}, {user.b}, {user.e}")
-                    # store_quality(user)
                     # if user.money < 500000:
                     #     print(f"{account}, {user.name}, {user.b}, {user.e}")
                     # if user.m_coin > 0:
@@ -1024,6 +1025,106 @@ def main(account, method_type):
     except Exception as e:
         print(f"程序执行失败：{e}")
 
+def assign_item(user: UserInfo, item_id, item_num):
+    xml = f"""<command><msgType>2532</msgType><a>{user.user_id}</a><b/><c>{user.user_id}</c><d>{item_id}</d><e>{item_num}</e><f>0</f><g>0</g>
+    <y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    send_request_once(ASSIGN_ITEM, filled_xml)
+
+
+def get_sh_item(user: UserInfo):
+    xml = f"""<command><msgType>2528</msgType><a>{user.user_id}</a><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    res = send_request_once(GET_SH_ITEEM, filled_xml)
+    root = ET.fromstring(res)
+    items = root.findall("item")
+    for item in items:
+        item_id = item.find("a").text
+        if trans_item_set.__contains__(item_id):
+            item_num = item.find("b").text
+            assign_item(user, item_id, item_num)
+
+def add_consignment(from_user: UserInfo, to_user: UserInfo, item):
+    xml = f"""<command><msgType>88</msgType><itemId>{item[0]}</itemId><numb>{item[1]}</numb><quality>0</quality><unitPrice>0</unitPrice><time>6</time>
+    <destId>{to_user.user_id}</destId><y>{from_user.user_id}</y><z>{from_user.z}</z><userId>{from_user.user_id}</userId></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    send_request_once(ADD_CONSIGNMENT, filled_xml)
+
+def buy_consignment(user: UserInfo, id):
+    xml = f"""<command><msgType>80</msgType><userId>{user.user_id}</userId><id>{id}</id><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    send_request_once(CONSIGNMENT_BUY, filled_xml)
+
+def get_friend_consign(user: UserInfo):
+    xml = f"""<command><msgType>90</msgType><userId>{user.user_id}</userId><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    res = send_request_once(GET_FRIEND_CONSIGN, filled_xml)
+    root = ET.fromstring(res)
+    items = root.findall("item")
+    for item in items:
+        id = item.find("id").text
+        buy_consignment(user, id)
+
+
+def to_transform(from_user: UserInfo, to_user: UserInfo):
+    get_sh_item(from_user)
+    item_arr = []
+    res1 = open_package(from_user)
+    res2 = user_depot(from_user)
+    check_item(item_arr, trans_item_set, res1)
+    check_item(item_arr, trans_item_set, res2)
+    for item in item_arr:
+        add_consignment(from_user, to_user, item)
+        get_friend_consign(to_user)
+
+
+def tansform_item(from_accounts, to_account):
+    try:
+        data = {
+            "userloginid": to_account,
+            "pword": "13934670751abc",
+            "auto_login": False
+        }
+        session = requests.Session()
+        login_response = session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=data)
+        if login_response.status_code == 200:
+            profile_response = session.get("http://www.139up.com/zysd.jsp")
+            if profile_response.status_code == 200:
+                pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+                match = re.findall(pattern, profile_response.text)
+                if match:
+                    a = len(match[0])
+                    b = match[0][55:a - 2].split("&sessionId=")
+                    to_user = get_user_info(b[0], b[1])
+                    for from_account in from_accounts:
+                        from_data = {
+                            "userloginid": from_account,
+                            "pword": "13934670751abc",
+                            "auto_login": False
+                        }
+                        from_session = requests.Session()
+                        from_login_response = from_session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=from_data)
+                        if from_login_response.status_code == 200:
+                            from_profile_response = from_session.get("http://www.139up.com/zysd.jsp")
+                            if from_profile_response.status_code == 200:
+                                match = re.findall(pattern, from_profile_response.text)
+                                if match:
+                                    a = len(match[0])
+                                    b = match[0][55:a - 2].split("&sessionId=")
+                                    from_user = get_user_info(b[0], b[1])
+                                    to_transform(from_user, to_user)
+                                    from_session.close()
+                    store_item(to_user)
+        session.close()
+    except Exception as e:
+        print(f"程序执行失败：{e}")
+
+
 def open_box():
     main("qiqiwo321", 7)
     for i in range(1, 83):
@@ -1053,7 +1154,7 @@ def daily_event(method_type, num):
         main(f"""shifangfozu{i + 1}""", method_type)
     end = int(time.time())
     print(end - start)
-#
+
 def process_food():
     start = int(time.time())
     main("shifangfozu27", 3)
@@ -1064,7 +1165,7 @@ def process_food():
     print(end - start)
 
 def shouhuo():
-    # daily_event(1, 83)  # 每日采集狩猎钓鱼交换
+    # daily_event(1, 138)  # 每日采集狩猎钓鱼交换
     daily_event(4, 138)  # 收获
     daily_event(5, 138)  # 校验异常
     for account in account_list:
@@ -1103,11 +1204,11 @@ trans_item_set = set()
 # trans_item_set.add("858")  # 利木赞牛
 # trans_item_set.add("857")  # 利木赞牛幼崽
 # trans_item_set.add("860")  # 奥尔洛夫马
-trans_item_set.add("685")  # 猪肉
+# trans_item_set.add("685")  # 猪肉
 # trans_item_set.add("671")  # 法国垂耳兔
 # trans_item_set.add("821")  # 伊比利亚猪肉
 # trans_item_set.add("833")  # 皮埃蒙特牛肉
-# trans_item_set.add("669")  # 黄牛肉
+trans_item_set.add("669")  # 黄牛肉
 # trans_item_set.add("679")  # 羊肉
 # trans_item_set.add("673")  # 驴
 # trans_item_set.add("831")  # 山羊奶
@@ -1135,11 +1236,6 @@ trans_item_set.add("685")  # 猪肉
 # trans_item_set.add("844")  # 西芹
 # trans_item_set.add("613")  # 草莓
 # trans_item_set.add("889")  # 燕麦
-# trans_item_set.add("1509")  # 圆木
-# trans_item_set.add("200052")  # 石料
-# trans_item_set.add("1523")  # 红宝石碎片
-# trans_item_set.add("200051")  # 红宝石
-# trans_item_set.add("1514")  # 海蓝宝石
 # trans_item_set.add("687")  # 牛奶
 # trans_item_set.add("694")  # 鸡蛋
 # trans_item_set.add("696")  # 鸭蛋
@@ -1166,9 +1262,11 @@ trans_item_set.add("685")  # 猪肉
 # trans_item_set.add("1753")  # 高加索野牛
 # trans_item_set.add("1755")  # 纸莎草
 # trans_item_set.add("882")  # 黑加仑子
+# trans_item_set.add("1771")  # 石榴
 # trans_item_set.add("728")  # 密斯卡代勒
 # trans_item_set.add("1526")  # 迷迭香
 # trans_item_set.add("1531")  # 豆蔻
+# trans_item_set.add("1527")  # 肉桂
 # trans_item_set.add("862")  # 柠檬
 # trans_item_set.add("588")  # 甜椒
 # trans_item_set.add("879")  # 牛油果种子
@@ -1176,24 +1274,29 @@ trans_item_set.add("685")  # 猪肉
 # trans_item_set.add("866")  # 樱桃种子
 # trans_item_set.add("867")  # 樱桃
 # trans_item_set.add("847")  # 荷兰豆
-trans_item_set.add("100126")  # 布莱香槟酒
-trans_item_set.add("1529")  # 鼠尾草
+# trans_item_set.add("100126")  # 布莱香槟酒
+# trans_item_set.add("1529")  # 鼠尾草
 # trans_item_set.add("933")  # 法式蜗牛
 # trans_item_set.add("932")  # 松鸡肉
 # trans_item_set.add("727")  # 库隆巴
 # trans_item_set.add("729")  # 小维杜
 # trans_item_set.add("1530")  # 香荚兰
 # trans_item_set.add("1532")  # 薄荷
-trans_item_set.add("11101204")  # 大理石
-trans_item_set.add("102002")  # 鹿花菌
-trans_item_set.add("11100514")  # 琉璃苣
-trans_item_set.add("11300010")  # 秋日小圆帽
-trans_item_set.add("11300011")  # 毁灭天使
-trans_item_set.add("11300012")  # 撒旦的召唤
-trans_item_set.add("11300013")  # 骑士头套
-trans_item_set.add("11300014")  # 死亡帽
-trans_item_set.add("11300015")  # 死亡天使
-trans_item_set.add("11300007")  # 羊肚蕈
+# trans_item_set.add("1509")  # 圆木
+# trans_item_set.add("200052")  # 石料
+# trans_item_set.add("1523")  # 红宝石碎片
+# trans_item_set.add("200051")  # 红宝石
+# trans_item_set.add("1514")  # 海蓝宝石
+# trans_item_set.add("11101204")  # 大理石
+# trans_item_set.add("102002")  # 鹿花菌
+# trans_item_set.add("11100514")  # 琉璃苣
+# trans_item_set.add("11300010")  # 秋日小圆帽
+# trans_item_set.add("11300011")  # 毁灭天使
+# trans_item_set.add("11300012")  # 撒旦的召唤
+# trans_item_set.add("11300013")  # 骑士头套
+# trans_item_set.add("11300014")  # 死亡帽
+# trans_item_set.add("11300015")  # 死亡天使
+# trans_item_set.add("11300007")  # 羊肚蕈
 # trans_item_set.add("1473")  # 红玫瑰种子
 # trans_item_set.add("1475")  # 黄玫瑰种子
 # trans_item_set.add("1483")  # 白玫瑰种子
@@ -1203,6 +1306,8 @@ trans_item_set.add("11300007")  # 羊肚蕈
 
 fish_item_set = set()
 fish_item_set.add("1009")  # 扩充魔法齿轮
+fish_item_set.add("1514")  # 海蓝宝石
+fish_item_set.add("200051")  # 红宝石
 fish_item_set.add("200052")  # 石料
 fish_item_set.add("11101204")  # 大理石
 fish_item_set.add("1509")  # 圆木

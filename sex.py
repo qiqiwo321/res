@@ -131,68 +131,68 @@ USER_ITEM_MAP = {
 'shifangfozu81': '837,877,814,668',
 'shifangfozu82': '837,877,814,668',
 'shifangfozu83': '837,877,814,668',
-'shifangfozu84': '587,640,691,670',   # 甜椒 椰枣 荷兰白火鸡 法国垂耳兔
-'shifangfozu85': '587,640,691,670',
-'shifangfozu86': '587,640,691,670',
-'shifangfozu87': '587,640,691,670',
-'shifangfozu88': '587,640,691,670',
-'shifangfozu89': '587,640,691,670',
-'shifangfozu90': '587,640,691,670',
-'shifangfozu91': '587,640,691,670',
-'shifangfozu92': '587,640,691,670',
-'shifangfozu93': '587,640,691,670',
-'shifangfozu94': '587,640,691,670',
-'shifangfozu95': '587,640,691,670',
-'shifangfozu96': '587,640,691,670',
-'shifangfozu97': '587,640,691,670',
-'shifangfozu98': '587,640,691,670',
-'shifangfozu99': '587,640,691,670',
-'shifangfozu100': '587,640,691,670',
-'shifangfozu101': '587,640,691,670',
-'shifangfozu102': '587,640,691,670',
-'shifangfozu103': '587,640,691,670',
-'shifangfozu104': '587,640,691,670',
-'shifangfozu105': '587,640,691,670',
-'shifangfozu106': '587,640,691,670',
-'shifangfozu107': '587,640,691,670',
-'shifangfozu108': '587,640,691,670',
-'shifangfozu109': '587,640,691,670',
-'shifangfozu110': '587,640,691,670',
-'shifangfozu111': '587,640,691,670',
-'shifangfozu112': '587,640,691,670',
-'shifangfozu113': '587,640,691,670',
-'shifangfozu114': '587,640,691,670',
-'shifangfozu115': '587,640,691,670',
-'shifangfozu116': '587,640,691,670',
-'shifangfozu117': '587,640,691,670',
-'shifangfozu118': '587,640,691,670',
-'shifangfozu119': '587,640,691,670',
-'shifangfozu120': '587,640,691,670',
-'shifangfozu121': '587,640,691,670',
-'shifangfozu122': '587,640,691,670',
-'shifangfozu123': '587,640,691,670',
-'shifangfozu124': '587,640,691,670',
-'shifangfozu125': '587,640,691,670',
-'shifangfozu126': '587,640,691,670',
-'shifangfozu127': '587,640,691,670',
-'shifangfozu128': '587,640,691,670',
-'shifangfozu129': '587,640,691,670',
-'shifangfozu130': '587,640,691,670',
-'shifangfozu131': '587,640,691,670',
-'shifangfozu132': '587,640,691,670',
-'shifangfozu133': '587,640,691,670',
-'shifangfozu134': '587,640,691,670',
-'shifangfozu135': '587,640,691,670',
-'shifangfozu136': '587,640,691,670',
-'shifangfozu137': '587,640,691,670',
-'shifangfozu138': '587,640,691,670'
+'shifangfozu84': '582,890,808,825',   # 甜菜 蓝莓 匈牙利白鹅 单峰驼
+'shifangfozu85': '582,890,808,825',
+'shifangfozu86': '582,890,808,825',
+'shifangfozu87': '582,890,808,825',
+'shifangfozu88': '582,890,808,825',
+'shifangfozu89': '582,890,808,825',
+'shifangfozu90': '582,890,808,825',
+'shifangfozu91': '582,890,808,825',
+'shifangfozu92': '582,890,808,825',
+'shifangfozu93': '582,890,808,825',
+'shifangfozu94': '582,890,808,825',
+'shifangfozu95': '582,890,808,825',
+'shifangfozu96': '582,890,808,825',
+'shifangfozu97': '582,890,808,825',
+'shifangfozu98': '582,890,808,825',
+'shifangfozu99': '582,890,808,825',
+'shifangfozu100': '582,890,808,825',
+'shifangfozu101': '582,890,808,825',
+'shifangfozu102': '582,890,808,825',
+'shifangfozu103': '582,890,808,825',
+'shifangfozu104': '582,890,808,825',
+'shifangfozu105': '582,890,808,825',
+'shifangfozu106': '582,890,808,825',
+'shifangfozu107': '582,890,808,825',
+'shifangfozu108': '582,890,808,825',
+'shifangfozu109': '582,890,808,825',
+'shifangfozu110': '582,890,808,825',
+'shifangfozu111': '582,890,808,825',
+'shifangfozu112': '582,890,808,825',
+'shifangfozu113': '582,890,808,825',
+'shifangfozu114': '582,890,808,825',
+'shifangfozu115': '582,890,808,825',
+'shifangfozu116': '582,890,808,825',
+'shifangfozu117': '582,890,808,825',
+'shifangfozu118': '582,890,808,825',
+'shifangfozu119': '582,890,808,825',
+'shifangfozu120': '582,890,808,825',
+'shifangfozu121': '582,890,808,825',
+'shifangfozu122': '582,890,808,825',
+'shifangfozu123': '582,890,808,825',
+'shifangfozu124': '582,890,808,825',
+'shifangfozu125': '582,890,808,825',
+'shifangfozu126': '582,890,808,825',
+'shifangfozu127': '582,890,808,825',
+'shifangfozu128': '582,890,808,825',
+'shifangfozu129': '582,890,808,825',
+'shifangfozu130': '582,890,808,825',
+'shifangfozu131': '582,890,808,825',
+'shifangfozu132': '582,890,808,825',
+'shifangfozu133': '582,890,808,825',
+'shifangfozu134': '582,890,808,825',
+'shifangfozu135': '582,890,808,825',
+'shifangfozu136': '582,890,808,825',
+'shifangfozu137': '582,890,808,825',
+'shifangfozu138': '582,890,808,825'
 }
 
 DAILY_TASK = {'959', '931', '954', '10205602', '891', '978', '287', '935', '10206001', '10204202', '914', '953', '629', '921', '903', '10203301', '10202202', '222', '979', '942', '10204001', '10204002', '970', '927', '957', '905', '224', '284', '10206801', '611', '984', '280', '917', '972', '912', '975', '982', '10204503', '946', '10201302', '980', '10202901', '10207001', '627', '933', '10202501', '901', '948', '625', '632', '631', '989', '291', '934', '10203501', '10205801', '221', '10207501', '10203101', '932', '896', '949', '973', '941', '10207304', '895', '546', '911', '612', '910', '227', '620', '10204502', '890', '892', '897', '963', '920', '10202201', '965', '10203001', '10204004', '967', '282', '295', '951', '977', '623', '626', '183', '983', '628', '10204003', '633', '936', '919', '906', '907', '987', '184', '898', '10207301', '913', '938', '893', '226', '986', '923', '952', '613', '985', '950', '966', '10207302', '902', '10206501', '958', '964', '960', '10205601', '974', '918', '969', '915', '943', '894', '981', '962', '10201301', '630', '10207303', '899', '10208001', '930', '956', '10205001', '916', '908', '939', '955', '610', '945', '223', '545', '940', '10204203', '988', '928', '298', '929', '10206301', '925', '278', '971', '904', '937', '947', '10204501', '909', '618', '922', '976', '10202001', '10207502', '619', '944', '622', '624', '961', '10204201', '621', '968', '900', '10204204', '926', '10203502', '10205301', '924', '614', '279'}
 
 # 对应Java中的UserInfo模型（用类封装更清晰）
 class UserInfo:
-    def __init__(self, user_id: str, name: str, z: str, b: str, e: str, money: int, m_coin: int):
+    def __init__(self, user_id: str, name: str, z: str, b: str, e: str, money: int, m_coin: int, k: int):
         self.user_id = user_id
         self.name = name
         self.z = z
@@ -200,6 +200,7 @@ class UserInfo:
         self.e = e
         self.money = money
         self.m_coin = m_coin
+        self.k = k
 
 
 def get_user_info(userid, sessionId) -> UserInfo:
@@ -217,6 +218,7 @@ def get_user_info(userid, sessionId) -> UserInfo:
     z = root.find("z").text
     b = root.find("b").text
     e = root.find("e").text
+    k = root.find("k").text
     m_coin = 0
     money = int(root.find("money").text)
     if root.find("mCoin").text:
@@ -224,7 +226,7 @@ def get_user_info(userid, sessionId) -> UserInfo:
     # 验证必要字段是否完整
     if not all([user_id, name, z, b, e, money]):
         raise ValueError("XML文件缺少必要节点（userId/name/z/b/e/money）")
-    return UserInfo(user_id, name, z, b, e, money, m_coin)
+    return UserInfo(user_id, name, z, b, e, money, m_coin, int(k))
 
 def send_request_once(url: str, param: str):
     """
@@ -315,8 +317,6 @@ def send_request(url: str, param: str, times: int):
                 headers=headers,
                 timeout=10
             )
-            # 如需解析响应，可在此处调用parse_response方法（与Java一致，暂注释）
-            print(response.text)
         except Exception as e:
             print(f"请求失败（URL：{url}）：{e}")
 
@@ -991,11 +991,7 @@ def main(account, method_type):
                     a = len(match[0])
                     b = match[0][55:a - 2].split("&sessionId=")
                     user = get_user_info(b[0], b[1])
-                    print(f"{account}, {user.name}, {user.b}, {user.e}")
-                    # if user.money < 500000:
-                    #     print(f"{account}, {user.name}, {user.b}, {user.e}")
-                    # if user.m_coin > 0:
-                    #     print(f"{account}, {user.name}, {user.m_coin}")
+                    print(f"{account}, {user.name}, {user.b}, {user.e}, {user.k}")
                     if method_type == 1:
                         # 每日采集，狩猎，钓鱼
                         exec_action(user)
@@ -1021,9 +1017,43 @@ def main(account, method_type):
                     elif method_type == 7:
                         # 开袋子
                         query_and_open_chest(user)
+        session.close()
+    except Exception as e:
+        print(f"程序执行失败：{e}")
+
+user_id_list = []
+def caculate_money(account):
+    try:
+        data = {
+            "userloginid": account,
+            "pword": "13934670751abc",
+            "auto_login": False
+        }
+        session = requests.Session()
+        login_response = session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=data)
+        if login_response.status_code == 200:
+            profile_response = session.get("http://www.139up.com/zysd.jsp")
+            if profile_response.status_code == 200:
+                pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+                match = re.findall(pattern, profile_response.text)
+                if match:
+                    a = len(match[0])
+                    b = match[0][55:a - 2].split("&sessionId=")
+                    user = get_user_info(b[0], b[1])
+                    if user.money < 500000:
+                        print(f"{account}, {user.name}, {user.b}, {user.e}")
+                        user_id_list.append(user.user_id)
                     session.close()
     except Exception as e:
         print(f"程序执行失败：{e}")
+
+def distribute_money(user: UserInfo):
+    if len(user_id_list) > 0:
+        user_ids = ",".join(user_id_list)
+        xml = f"""<command><msgType>2532</msgType><a>{user.user_id}</a><b/><c>{user_ids}</c><d/><e/><f/><g>5000000</g><y>{user.user_id}</y><z>{user.z}</z></command>"""
+        xml = "".join(xml.split())
+        filled_xml = fill_ww(xml, "</command>")
+        send_request_once(ASSIGN_ITEM, filled_xml)
 
 def assign_item(user: UserInfo, item_id, item_num):
     xml = f"""<command><msgType>2532</msgType><a>{user.user_id}</a><b/><c>{user.user_id}</c><d>{item_id}</d><e>{item_num}</e><f>0</f><g>0</g>
@@ -1082,7 +1112,6 @@ def to_transform(from_user: UserInfo, to_user: UserInfo):
         add_consignment(from_user, to_user, item)
         get_friend_consign(to_user)
 
-
 def tansform_item(from_accounts, to_account):
     try:
         data = {
@@ -1118,7 +1147,7 @@ def tansform_item(from_accounts, to_account):
                                     b = match[0][55:a - 2].split("&sessionId=")
                                     from_user = get_user_info(b[0], b[1])
                                     to_transform(from_user, to_user)
-                                    from_session.close()
+                        from_session.close()
                     store_item(to_user)
         session.close()
     except Exception as e:
@@ -1171,6 +1200,64 @@ def shouhuo():
     for account in account_list:
         main(account, 4)
 
+def assign_money():
+    print("商会1分配金币==============")
+    for i in range(69):
+        if i == 54:
+            continue
+        caculate_money(f"""shifangfozu{i + 1}""")
+    for i in range(83, 114):
+        caculate_money(f"""shifangfozu{i + 1}""")
+    try:
+        data = {
+            "userloginid": "qiqiwo321",
+            "pword": "13934670751abc",
+            "auto_login": False
+        }
+        session = requests.Session()
+        login_response = session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=data)
+        if login_response.status_code == 200:
+            profile_response = session.get("http://www.139up.com/zysd.jsp")
+            if profile_response.status_code == 200:
+                pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+                match = re.findall(pattern, profile_response.text)
+                if match:
+                    a = len(match[0])
+                    b = match[0][55:a - 2].split("&sessionId=")
+                    user = get_user_info(b[0], b[1])
+                    distribute_money(user)
+        session.close()
+    except Exception as e:
+        print(f"程序执行失败：{e}")
+
+    user_id_list.clear()
+    print("商会2分配金币==============")
+    caculate_money(f"""shifangfozu55""")
+    for i in range(69, 83):
+        caculate_money(f"""shifangfozu{i + 1}""")
+    try:
+        data = {
+            "userloginid": "shifangfozu55",
+            "pword": "13934670751abc",
+            "auto_login": False
+        }
+        session = requests.Session()
+        login_response = session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=data)
+        if login_response.status_code == 200:
+            profile_response = session.get("http://www.139up.com/zysd.jsp")
+            if profile_response.status_code == 200:
+                pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+                match = re.findall(pattern, profile_response.text)
+                if match:
+                    a = len(match[0])
+                    b = match[0][55:a - 2].split("&sessionId=")
+                    user = get_user_info(b[0], b[1])
+                    distribute_money(user)
+        session.close()
+    except Exception as e:
+        print(f"程序执行失败：{e}")
+
+
 def test():
     try:
         with open("D://project//zysd//taskInfo.txt", "r", encoding="utf-8") as f:
@@ -1208,7 +1295,7 @@ trans_item_set = set()
 # trans_item_set.add("671")  # 法国垂耳兔
 # trans_item_set.add("821")  # 伊比利亚猪肉
 # trans_item_set.add("833")  # 皮埃蒙特牛肉
-trans_item_set.add("669")  # 黄牛肉
+# trans_item_set.add("669")  # 黄牛肉
 # trans_item_set.add("679")  # 羊肉
 # trans_item_set.add("673")  # 驴
 # trans_item_set.add("831")  # 山羊奶
@@ -1217,6 +1304,7 @@ trans_item_set.add("669")  # 黄牛肉
 # trans_item_set.add("593")  # 南瓜
 # trans_item_set.add("582")  # 甜菜种子
 # trans_item_set.add("583")  # 甜菜
+# trans_item_set.add("100281")  # 糖
 # trans_item_set.add("840")  # 帕尔玛猪肉
 # trans_item_set.add("817")  # 莱茵鹅
 # trans_item_set.add("709")  # 白玉涅
@@ -1261,6 +1349,7 @@ trans_item_set.add("669")  # 黄牛肉
 # trans_item_set.add("1831")  # 雷鸟
 # trans_item_set.add("1753")  # 高加索野牛
 # trans_item_set.add("1755")  # 纸莎草
+trans_item_set.add("951")  # 大麦
 # trans_item_set.add("882")  # 黑加仑子
 # trans_item_set.add("1771")  # 石榴
 # trans_item_set.add("728")  # 密斯卡代勒

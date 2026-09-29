@@ -68,9 +68,9 @@ USER_ITEM_MAP = {
 'shifangfozu16': '1754,1756,1830,1752',
 'shifangfozu17': '1754,1756,1830,1752',
 'shifangfozu18': '1754,1756,1830,1752',
-'shifangfozu19': '1754,1756,1750,1752',  # 纸莎草 无花果 鹌鹑 高加索野牛
-'shifangfozu20': '1754,1756,1750,1752',
-'shifangfozu21': '1754,1756,1750,1752',
+'shifangfozu19': '1754,1756,1830,1752',
+'shifangfozu20': '1754,1756,1830,1752',
+'shifangfozu21': '1754,1756,1750,1752', # 纸莎草 无花果 鹌鹑 高加索野牛
 'shifangfozu22': '1754,1756,1750,1752',
 'shifangfozu23': '1754,1756,1750,1752',
 'shifangfozu24': '1754,1756,1750,1752',
@@ -110,84 +110,84 @@ USER_ITEM_MAP = {
 'shifangfozu58': '850,881,1750,873',
 'shifangfozu59': '850,881,1750,873',
 'shifangfozu60': '850,881,1750,873',
-'shifangfozu61': '560,877,682,668',  # 黑麦 橄榄 灰鸡 黄牛
-'shifangfozu62': '560,877,682,668',
-'shifangfozu63': '560,877,682,668',
-'shifangfozu64': '560,877,682,668',
-'shifangfozu65': '560,877,682,668',
-'shifangfozu66': '560,877,682,668',
-'shifangfozu67': '560,877,682,668',
-'shifangfozu68': '560,877,682,668',
-'shifangfozu69': '560,877,682,668',
-'shifangfozu70': '560,877,682,668',
-'shifangfozu71': '560,877,682,668',
-'shifangfozu72': '560,877,682,668',
-'shifangfozu73': '560,877,682,668',
-'shifangfozu74': '560,877,682,668',
-'shifangfozu75': '560,877,682,668',
-'shifangfozu76': '560,877,682,668',
-'shifangfozu77': '560,877,682,668',
-'shifangfozu78': '560,877,682,668',
-'shifangfozu79': '560,877,682,668',
-'shifangfozu80': '560,877,682,668',
-'shifangfozu81': '560,877,682,668',
-'shifangfozu82': '560,877,682,668',
-'shifangfozu83': '560,877,682,668',
-'shifangfozu84': '582,890,808,825',   # 甜菜 蓝莓 匈牙利白鹅 单峰驼
-'shifangfozu85': '582,890,808,825',
-'shifangfozu86': '582,890,808,825',
-'shifangfozu87': '582,890,808,825',
-'shifangfozu88': '582,890,808,825',
-'shifangfozu89': '582,890,808,825',
-'shifangfozu90': '582,890,808,825',
-'shifangfozu91': '582,890,808,825',
-'shifangfozu92': '582,890,808,825',
-'shifangfozu93': '582,890,808,825',
-'shifangfozu94': '582,890,808,825',
-'shifangfozu95': '582,890,808,825',
-'shifangfozu96': '582,890,808,825',
-'shifangfozu97': '582,890,808,825',
-'shifangfozu98': '582,890,808,825',
-'shifangfozu99': '582,890,808,825',
-'shifangfozu100': '582,890,808,825',
-'shifangfozu101': '582,890,808,825',
-'shifangfozu102': '582,890,808,825',
-'shifangfozu103': '582,890,808,825',
-'shifangfozu104': '582,890,808,825',
-'shifangfozu105': '582,890,808,825',
-'shifangfozu106': '582,890,808,825',
-'shifangfozu107': '582,890,808,825',
-'shifangfozu108': '582,890,808,825',
-'shifangfozu109': '582,890,808,825',
-'shifangfozu110': '582,890,808,825',
-'shifangfozu111': '582,890,808,825',
-'shifangfozu112': '582,890,808,825',
-'shifangfozu113': '582,890,808,825',
-'shifangfozu114': '582,890,808,825',
-'shifangfozu115': '582,890,808,825',
-'shifangfozu116': '582,890,808,825',
-'shifangfozu117': '582,890,808,825',
-'shifangfozu118': '582,890,808,825',
-'shifangfozu119': '582,890,808,825',
-'shifangfozu120': '582,890,808,825',
-'shifangfozu121': '582,890,808,825',
-'shifangfozu122': '582,890,808,825',
-'shifangfozu123': '582,890,808,825',
-'shifangfozu124': '582,890,808,825',
-'shifangfozu125': '582,890,808,825',
-'shifangfozu126': '582,890,808,825',
-'shifangfozu127': '582,890,808,825',
-'shifangfozu128': '582,890,808,825',
-'shifangfozu129': '582,890,808,825',
-'shifangfozu130': '582,890,808,825',
-'shifangfozu131': '582,890,808,825',
-'shifangfozu132': '582,890,808,825',
-'shifangfozu133': '582,890,808,825',
-'shifangfozu134': '582,890,808,825',
-'shifangfozu135': '582,890,808,825',
-'shifangfozu136': '582,890,808,825',
-'shifangfozu137': '582,890,808,825',
-'shifangfozu138': '582,890,808,825'
+'shifangfozu61': '850,881,1750,873',
+'shifangfozu62': '850,881,1750,873',
+'shifangfozu63': '850,881,1750,873',
+'shifangfozu64': '580,877,682,668', # 洋葱 橄榄 灰鸡 黄牛
+'shifangfozu65': '580,877,682,668',
+'shifangfozu66': '580,877,682,668',
+'shifangfozu67': '580,877,682,668',
+'shifangfozu68': '580,877,682,668',
+'shifangfozu69': '580,877,682,668',
+'shifangfozu70': '580,877,682,668',
+'shifangfozu71': '580,877,682,668',
+'shifangfozu72': '580,877,682,668',
+'shifangfozu73': '580,877,682,668',
+'shifangfozu74': '580,877,682,668',
+'shifangfozu75': '580,877,682,668',
+'shifangfozu76': '580,877,682,668',
+'shifangfozu77': '580,877,682,668',
+'shifangfozu78': '580,877,682,668',
+'shifangfozu79': '580,877,682,668',
+'shifangfozu80': '580,877,682,668',
+'shifangfozu81': '580,877,682,668',
+'shifangfozu82': '580,877,682,668',
+'shifangfozu83': '580,877,682,668',
+'shifangfozu84': '582,908,808,830',   # 甜菜 松子 匈牙利白鹅 萨能奶山羊
+'shifangfozu85': '582,908,808,830',
+'shifangfozu86': '582,908,808,830',
+'shifangfozu87': '582,908,808,830',
+'shifangfozu88': '582,908,808,830',
+'shifangfozu89': '582,908,808,830',
+'shifangfozu90': '582,908,808,830',
+'shifangfozu91': '582,908,808,830',
+'shifangfozu92': '582,908,808,830',
+'shifangfozu93': '582,908,808,830',
+'shifangfozu94': '582,908,808,830',
+'shifangfozu95': '582,908,808,830',
+'shifangfozu96': '582,908,808,830',
+'shifangfozu97': '582,908,808,830',
+'shifangfozu98': '582,908,808,830',
+'shifangfozu99': '582,908,808,830',
+'shifangfozu100': '582,908,808,830',
+'shifangfozu101': '582,908,808,830',
+'shifangfozu102': '582,908,808,830',
+'shifangfozu103': '582,908,808,830',
+'shifangfozu104': '582,908,808,830',
+'shifangfozu105': '582,908,808,830',
+'shifangfozu106': '582,908,808,830',
+'shifangfozu107': '582,908,808,830',
+'shifangfozu108': '582,908,808,830',
+'shifangfozu109': '582,908,808,830',
+'shifangfozu110': '582,908,808,830',
+'shifangfozu111': '582,908,808,830',
+'shifangfozu112': '582,908,808,830',
+'shifangfozu113': '582,908,808,830',
+'shifangfozu114': '582,908,808,830',
+'shifangfozu115': '582,908,808,830',
+'shifangfozu116': '582,908,808,830',
+'shifangfozu117': '582,908,808,830',
+'shifangfozu118': '582,908,808,830',
+'shifangfozu119': '582,908,808,830',
+'shifangfozu120': '582,908,808,830',
+'shifangfozu121': '582,908,808,830',
+'shifangfozu122': '582,908,808,830',
+'shifangfozu123': '582,908,808,830',
+'shifangfozu124': '582,908,808,830',
+'shifangfozu125': '582,908,808,830',
+'shifangfozu126': '582,908,808,830',
+'shifangfozu127': '582,908,808,830',
+'shifangfozu128': '582,908,808,830',
+'shifangfozu129': '582,908,808,830',
+'shifangfozu130': '582,908,808,830',
+'shifangfozu131': '582,908,808,830',
+'shifangfozu132': '582,908,808,830',
+'shifangfozu133': '582,908,808,830',
+'shifangfozu134': '582,908,808,830',
+'shifangfozu135': '582,908,808,830',
+'shifangfozu136': '582,908,808,830',
+'shifangfozu137': '582,908,808,830',
+'shifangfozu138': '582,908,808,830'
 }
 
 # 对应Java中的UserInfo模型（用类封装更清晰）
@@ -229,40 +229,27 @@ def get_user_info(userid, sessionId) -> UserInfo:
     return UserInfo(user_id, name, z, b, e, money, m_coin, int(k))
 
 def send_request_once(url: str, param: str):
-    """
-    批量发送POST请求，忽略响应结果（与Java注释后逻辑一致）
-    :param url: 接口URL
-    :param param: 请求参数（XML字符串）
-    :param times: 调用次数
-    """
-    headers = {"Content-Type": "text/plain"}  # 适配XML请求体
-    try:
-        # 发送POST请求（超时时间10秒，防止卡死）
-        response = requests.post(
-            url=url,
-            data=param.encode("utf-8"),
-            headers=headers,
-            timeout=10
-        )
-        # 如需解析响应，可在此处调用parse_response方法（与Java一致，暂注释）
-        return response.text
-    except Exception as e:
-        print(f"请求失败（URL：{url}）：{e}")
-        return None
+    headers = {"Content-Type": "text/plain"}
+    times = 0
+    while times < 3:
+        times += 1
+        try:
+            response = requests.post(
+                url=url,
+                data=param.encode("utf-8"),
+                headers=headers,
+                timeout=10
+            )
+            return response.text
+        except Exception as e:
+            print(f"请求失败（URL：{url}）：{e}")
 
 # 对应Java的toUnicode方法：将字符串转为十六进制字符拼接
 def to_unicode(param1: str, param2=None) -> str:
-    """
-    等价转换Java的toUnicode，将字符串每个字符转为十六进制，无分隔符拼接
-    :param param1: 待转换字符串
-    :param param2: 分隔符（Java默认"-"，此处保留参数兼容，实际未使用）
-    :return: 十六进制拼接字符串
-    """
     if param2 is None:
         param2 = "-"
     result = []
     for char in param1:
-        # 转为十六进制，去掉0x前缀，小写（与Java保持一致）
         hex_char = hex(ord(char))[2:]
         result.append(hex_char)
     return "".join(result)
@@ -768,6 +755,16 @@ def get_all_fruit(user: UserInfo, item_arr):
     filled_xml = fill_ww(xml, "</command>")
     send_request_once(GET_ALL_FRUIT, filled_xml)
 
+def player_fish_level_two(user: UserInfo, account):
+    xml = f"""<command><msgType>2012120305</msgType><userId>{user.user_id}</userId><type>1</type><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    res = send_request_once(PLAYER_EXCHANGED_INIT, filled_xml)
+    root = ET.fromstring(res)
+    two = root.find("fishStock").find("two").text
+    if int(two) > 300:
+        account_list.add(account)
+
 def player_exchanged_init(user: UserInfo):
     xml = f"""<command><msgType>2012120305</msgType><userId>{user.user_id}</userId><type>2</type><y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
@@ -924,14 +921,18 @@ def create_item(user: UserInfo, item):
     else:
         print("can not find element for " + item[0])
 
+def generate_item_quality(item_id) -> str:
+    quality = "no"
+    if QUALITY_ITEM.__contains__(item_id):
+        quality = "0"
+    return quality
+
 def generate_element(item_str: str) -> str:
     items = item_str.split(",")
     ele = ""
     for item in items:
-        if QUALITY_ITEM.__contains__(item):
-            ele += f"""<element><id>{item}</id><quality>0</quality></element>"""
-        else:
-            ele += f"""<element><id>{item}</id><quality>no</quality></element>"""
+        quality = generate_item_quality(item)
+        ele += f"""<element><id>{item}</id><quality>{quality}</quality></element>"""
     return ele
 
 
@@ -1006,6 +1007,13 @@ def main(account, method_type):
                     elif method_type == 7:
                         # 开袋子
                         query_and_open_chest(user)
+                    elif method_type == 8:
+                        # 查看二星鱼数量是否满300
+                        player_fish_level_two(user, account)
+                    elif method_type == 9:
+                        # 查看是否完成破碎的钻石任务
+                        check_nobility_task(user, account)
+
         session.close()
     except Exception as e:
         print(f"程序执行失败：{e}")
@@ -1045,7 +1053,8 @@ def distribute_money(user: UserInfo):
         send_request_once(ASSIGN_ITEM, filled_xml)
 
 def assign_item(user: UserInfo, item_id, item_num):
-    xml = f"""<command><msgType>2532</msgType><a>{user.user_id}</a><b/><c>{user.user_id}</c><d>{item_id}</d><e>{item_num}</e><f>0</f><g>0</g>
+    quality = generate_item_quality(item_id)
+    xml = f"""<command><msgType>2532</msgType><a>{user.user_id}</a><b/><c>{user.user_id}</c><d>{item_id}</d><e>{item_num}</e><f>{quality}</f><g>0</g>
     <y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</command>")
@@ -1066,7 +1075,8 @@ def get_sh_item(user: UserInfo):
             assign_item(user, item_id, item_num)
 
 def add_consignment(from_user: UserInfo, to_user: UserInfo, item):
-    xml = f"""<command><msgType>88</msgType><itemId>{item[0]}</itemId><numb>{item[1]}</numb><quality>0</quality><unitPrice>0</unitPrice><time>6</time>
+    quality = generate_item_quality(item[0])
+    xml = f"""<command><msgType>88</msgType><itemId>{item[0]}</itemId><numb>{item[1]}</numb><quality>{quality}</quality><unitPrice>0</unitPrice><time>6</time>
     <destId>{to_user.user_id}</destId><y>{from_user.user_id}</y><z>{from_user.z}</z><userId>{from_user.user_id}</userId></command>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</command>")
@@ -1174,6 +1184,7 @@ def caculate_daily_task_item(main_user: UserInfo, user: UserInfo):
             if need_item_info:
                 need_item_ids = need_item_info[0]
                 need_item_count = need_item_info[1]
+                res = True
                 for index, item_id in enumerate(need_item_ids):
                     main_item_num = MAIN_USER_ITEM_INFO.get(item_id, 0)
                     item_num = int(need_item_count[index])
@@ -1182,9 +1193,33 @@ def caculate_daily_task_item(main_user: UserInfo, user: UserInfo):
                         get_friend_consign(user)
                         MAIN_USER_ITEM_INFO[item_id] = main_item_num - item_num
                     else:
+                        res = False
                         lack_item_ids.add(item_id)
-            else:
-                print(f"can not find need item info by task_id {task_id}")
+                if res:
+                    submit_task(user, task_id)
+
+def to_tansform_daily_task_item(main_user: UserInfo, i):
+    from_data = {
+        "userloginid": f"shifangfozu{i}",
+        "pword": "13934670751abc",
+        "auto_login": False
+    }
+    to_session = requests.Session()
+    to_login_response = to_session.post("http://www.139up.com/userLogin.upstapp",
+                                        headers=headers, data=from_data)
+    if to_login_response.status_code == 200:
+        to_profile_response = to_session.get("http://www.139up.com/zysd.jsp")
+        if to_profile_response.status_code == 200:
+            pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+            match = re.findall(pattern, to_profile_response.text)
+            if match:
+                a = len(match[0])
+                b = match[0][55:a - 2].split("&sessionId=")
+                to_user = get_user_info(b[0], b[1])
+                if i > 50 and to_user.k == 9:
+                    return
+                caculate_daily_task_item(main_user, to_user)
+    to_session.close()
 
 def tansform_daily_task_item():
     try:
@@ -1205,34 +1240,17 @@ def tansform_daily_task_item():
                     b = match[0][55:a - 2].split("&sessionId=")
                     main_user = get_user_info(b[0], b[1])
                     init_main_user_package(main_user)
-                    for i in range(83, 138):
-                        from_data = {
-                            "userloginid": f"shifangfozu{i+1}",
-                            "pword": "13934670751abc",
-                            "auto_login": False
-                        }
-                        to_session = requests.Session()
-                        to_login_response = to_session.post("http://www.139up.com/userLogin.upstapp",
-                                                                headers=headers, data=from_data)
-                        if to_login_response.status_code == 200:
-                            to_profile_response = to_session.get("http://www.139up.com/zysd.jsp")
-                            if to_profile_response.status_code == 200:
-                                match = re.findall(pattern, to_profile_response.text)
-                                if match:
-                                    a = len(match[0])
-                                    b = match[0][55:a - 2].split("&sessionId=")
-                                    to_user = get_user_info(b[0], b[1])
-                                    if i > 50 and to_user.k == 9:
-                                        continue
-                                    caculate_daily_task_item(main_user, to_user)
-                        to_session.close()
+                    for i in range(1, 13):
+                        to_tansform_daily_task_item(main_user, i+1)
+                    for i in range(55, 138):
+                        to_tansform_daily_task_item(main_user, i+1)
         session.close()
         if len(lack_item_ids) > 0:
             print("缺少每日物品：" + ",".join(lack_item_ids))
     except Exception as e:
         print(f"程序执行失败：{e}")
 
-NOBILITY_ITEM_DICT = {"560": 250,"687": 360,"573": 50,"557": 50,"564": 100,"606": 100,"608": 100,"566": 200,"568": 200,"584": 400,"683": 200,"699": 200,"890": 30,"730": 50,"846": 100,"870": 50,"834": 200,"825": 200,"672": 200,"833": 500,"1523": 20,"100204": 110,"100165": 15,"100168": 250,"100399": 5,"100404": 5,"100126": 5,"100205": 10,"100143": 1,"100228": 1,"100234": 1,"100141": 50,"100081": 200,"100236": 50,"100262": 10,"100361": 20,"100224": 100,"100121": 50}
+NOBILITY_ITEM_DICT = {"561": 250,"687": 360,"574": 50,"558": 50,"565": 100,"607": 100,"609": 100,"567": 200,"570": 200,"586": 400,"683": 200,"699": 200,"891": 30,"730": 50,"847": 100,"871": 50,"835": 200,"826": 200,"673": 200,"833": 500,"1523": 20,"100204": 110,"100165": 15,"100168": 250,"100399": 5,"100404": 5,"100126": 5,"100205": 10,"100143": 1,"100228": 1,"100234": 1,"100141": 50,"100081": 200,"100236": 50,"100262": 10,"100361": 20,"100224": 100,"100121": 50}
 
 def to_tansform_nobility_item(main_user: UserInfo, user: UserInfo):
     for k, v in NOBILITY_ITEM_DICT.items():
@@ -1244,18 +1262,15 @@ def to_tansform_nobility_item(main_user: UserInfo, user: UserInfo):
         else:
             print(f"缺少物品：{k}")
 
+need_transf_item = {}
 def check_nobility_item(account_num):
-    res = False
     for k, v in NOBILITY_ITEM_DICT.items():
         num = MAIN_USER_ITEM_INFO.get(k, 0)
         need_num = v * account_num
         if num < need_num:
-            res = True
-            print(f"lack item: {k}")
-    return res
+            need_transf_item[k] = need_num - num
 
-NOBILITY_TASK_IDS = []
-
+NOBILITY_TASK_IDS = ["274", "293", "362", "281", "301", "302", "730", "731", "732", "733", "734"]
 def complete_nobility_task(user: UserInfo):
     xml = f"""<command><msgType>404</msgType><userId>{user.user_id}</userId><y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
@@ -1271,6 +1286,22 @@ def complete_nobility_task(user: UserInfo):
     for task_id in NOBILITY_TASK_IDS:
         accept_task(user, task_id)
         submit_task(user, task_id)
+
+def check_nobility_task(user: UserInfo, account):
+    xml = f"""<command><msgType>404</msgType><userId>{user.user_id}</userId><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    res = send_request_once(INIT_USER_TASK, filled_xml)
+    root = ET.fromstring(res)
+    task_list = root.find("a").text.split(",")
+    complete_list = root.find("b").text.split(",")
+    flag = True
+    for index, task_id in enumerate(task_list):
+        if task_id == "734" and complete_list[index] == '1':
+            flag = False
+    if flag:
+        account_list.add(account)
+
 
 def tansform_nobility_item():
     try:
@@ -1292,9 +1323,13 @@ def tansform_nobility_item():
                     main_user = get_user_info(b[0], b[1])
                     init_main_user_package(main_user)
                     # 校验物品数量
-                    if check_nobility_item(27):
+                    check_nobility_item(1)
+                    if len(need_transf_item) > 0:
+                        print(need_transf_item)
+                        for k, v in need_transf_item.items():
+                            assign_item(main_user, k, v)
                         return
-                    for i in range(68, 96):
+                    for i in range(77, 78):
                         from_data = {
                             "userloginid": f"shifangfozu{i+1}",
                             "pword": "13934670751abc",
@@ -1313,7 +1348,7 @@ def tansform_nobility_item():
                                     to_user = get_user_info(b[0], b[1])
                                     print(f"转移账号：shifangfozu{i+1}")
                                     to_tansform_nobility_item(main_user, to_user)
-                                    complete_nobility_task()
+                                    complete_nobility_task(to_user)
                         to_session.close()
         session.close()
     except Exception as e:
@@ -1340,6 +1375,7 @@ def exec_task():
     main("shifangfozu13", 6)
     for i in range(55, 138):
         main(f"""shifangfozu{i + 1}""", 6)
+    tansform_daily_task_item()
 
 def daily_event(method_type, num):
     start = int(time.time())
@@ -1358,8 +1394,9 @@ def process_food():
     end = int(time.time())
     print(end - start)
 
-def shouhuo():
-    # daily_event(1, 138)  # 每日采集狩猎钓鱼交换
+def shouhuo(only_once):
+    if only_once == 1:
+        daily_event(1, 138)  # 每日采集狩猎钓鱼交换
     daily_event(4, 138)  # 收获
     daily_event(5, 138)  # 校验异常
     for account in account_list:
@@ -1399,6 +1436,8 @@ def assign_money():
     print("商会2分配金币==============")
     caculate_money(f"""shifangfozu55""")
     for i in range(69, 83):
+        caculate_money(f"""shifangfozu{i + 1}""")
+    for i in range(114, 137):
         caculate_money(f"""shifangfozu{i + 1}""")
     try:
         data = {
@@ -1558,6 +1597,7 @@ trans_item_set = set()
 # trans_item_set.add("1474")  # 红玫瑰
 # trans_item_set.add("1476")  # 黄玫瑰
 # trans_item_set.add("1484")  # 白玫瑰
+trans_item_set.add("1009")  # 扩充魔法齿轮
 
 fish_item_set = set()
 fish_item_set.add("1009")  # 扩充魔法齿轮

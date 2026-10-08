@@ -1013,6 +1013,8 @@ def main(account, method_type):
                     elif method_type == 9:
                         # 查看是否完成破碎的钻石任务
                         check_nobility_task(user, account)
+                    elif method_type == 10:
+                        get_all_sh_item(user)
 
         session.close()
     except Exception as e:
@@ -1073,6 +1075,19 @@ def get_sh_item(user: UserInfo):
         if trans_item_set.__contains__(item_id):
             item_num = item.find("b").text
             assign_item(user, item_id, item_num)
+
+def get_all_sh_item(user: UserInfo):
+    xml = f"""<command><msgType>2528</msgType><a>{user.user_id}</a><y>{user.user_id}</y><z>{user.z}</z></command>"""
+    xml = "".join(xml.split())
+    filled_xml = fill_ww(xml, "</command>")
+    res = send_request_once(GET_SH_ITEEM, filled_xml)
+    root = ET.fromstring(res)
+    items = root.findall("item")
+    for item in items:
+        item_id = item.find("a").text
+        item_num = item.find("b").text
+        assign_item(user, item_id, item_num)
+
 
 def add_consignment(from_user: UserInfo, to_user: UserInfo, item):
     quality = generate_item_quality(item[0])
@@ -1147,7 +1162,6 @@ def tansform_item(from_accounts, to_account):
                                     from_user = get_user_info(b[0], b[1])
                                     to_transform(from_user, to_user)
                         from_session.close()
-                    store_item(to_user)
         session.close()
     except Exception as e:
         print(f"程序执行失败：{e}")
@@ -1199,8 +1213,9 @@ def caculate_daily_task_item(main_user: UserInfo, user: UserInfo):
                     submit_task(user, task_id)
 
 def to_tansform_daily_task_item(main_user: UserInfo, i):
+    account = f"shifangfozu{i}"
     from_data = {
-        "userloginid": f"shifangfozu{i}",
+        "userloginid": account,
         "pword": "13934670751abc",
         "auto_login": False
     }
@@ -1215,10 +1230,12 @@ def to_tansform_daily_task_item(main_user: UserInfo, i):
             if match:
                 a = len(match[0])
                 b = match[0][55:a - 2].split("&sessionId=")
-                to_user = get_user_info(b[0], b[1])
-                if i > 50 and to_user.k == 9:
+                user = get_user_info(b[0], b[1])
+                print(f"{account}, {user.name}, {user.b}, {user.e}, {user.k}")
+                if i > 50 and user.k == 9:
+                    to_session.close()
                     return
-                caculate_daily_task_item(main_user, to_user)
+                caculate_daily_task_item(main_user, user)
     to_session.close()
 
 def tansform_daily_task_item():
@@ -1597,7 +1614,7 @@ trans_item_set = set()
 # trans_item_set.add("1474")  # 红玫瑰
 # trans_item_set.add("1476")  # 黄玫瑰
 # trans_item_set.add("1484")  # 白玫瑰
-trans_item_set.add("1009")  # 扩充魔法齿轮
+# trans_item_set.add("1009")  # 扩充魔法齿轮
 
 fish_item_set = set()
 fish_item_set.add("1009")  # 扩充魔法齿轮

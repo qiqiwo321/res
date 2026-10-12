@@ -5,9 +5,7 @@ import re
 import xml.etree.ElementTree as ET
 import time
 import random
-from time import sleep
 
-# 对应Java中的常量定义
 COLOR = "0xA0A0A00xFF00000x00FF00"
 FISH_URL = "http://coml.manorage.com/manorage/FishingAction!PlayerGetFish.comapp"
 HUNT_URL = "http://coml.manorage.com/manorage/hunt_xbc!newSubmitHunt.comapp"
@@ -49,7 +47,7 @@ ANIMAL_TYPE_MAP = {'668': '1', '670': '1', '672': '1', '676': '1', '678': '1', '
 
 # 蔬菜,水果,家禽,家畜
 USER_ITEM_MAP = {
-'qiqiwo321': '10007301,10006801,10307001,10307501',  # 大蒜 红加仑 渡渡鸟  欧洲盘羊
+'qiqiwo321': '10007301,10007801,10307001,10307501',  # 大蒜 白苏维尼翁 渡渡鸟  欧洲盘羊
 'shifangfozu1': '950,100595,100597,10305601',    # 大麦 覆盆子 榛鸡  旱獭
 'shifangfozu2': '950,1756,1830,1752',    # 大麦 无花果 雷鸟  高加索野牛
 'shifangfozu3': '950,1756,1830,1752',
@@ -113,84 +111,83 @@ USER_ITEM_MAP = {
 'shifangfozu61': '850,881,1750,873',
 'shifangfozu62': '850,881,1750,873',
 'shifangfozu63': '850,881,1750,873',
-'shifangfozu64': '580,877,682,668', # 洋葱 橄榄 灰鸡 黄牛
-'shifangfozu65': '580,877,682,668',
-'shifangfozu66': '580,877,682,668',
-'shifangfozu67': '580,877,682,668',
-'shifangfozu68': '580,877,682,668',
-'shifangfozu69': '580,877,682,668',
-'shifangfozu70': '580,877,682,668',
-'shifangfozu71': '580,877,682,668',
-'shifangfozu72': '580,877,682,668',
-'shifangfozu73': '580,877,682,668',
-'shifangfozu74': '580,877,682,668',
-'shifangfozu75': '580,877,682,668',
-'shifangfozu76': '580,877,682,668',
-'shifangfozu77': '580,877,682,668',
-'shifangfozu78': '580,877,682,668',
-'shifangfozu79': '580,877,682,668',
-'shifangfozu80': '580,877,682,668',
-'shifangfozu81': '580,877,682,668',
-'shifangfozu82': '580,877,682,668',
-'shifangfozu83': '580,877,682,668',
-'shifangfozu84': '582,908,808,830',   # 甜菜 松子 匈牙利白鹅 萨能奶山羊
-'shifangfozu85': '582,908,808,830',
-'shifangfozu86': '582,908,808,830',
-'shifangfozu87': '582,908,808,830',
-'shifangfozu88': '582,908,808,830',
-'shifangfozu89': '582,908,808,830',
-'shifangfozu90': '582,908,808,830',
-'shifangfozu91': '582,908,808,830',
-'shifangfozu92': '582,908,808,830',
-'shifangfozu93': '582,908,808,830',
-'shifangfozu94': '582,908,808,830',
-'shifangfozu95': '582,908,808,830',
-'shifangfozu96': '582,908,808,830',
-'shifangfozu97': '582,908,808,830',
-'shifangfozu98': '582,908,808,830',
-'shifangfozu99': '582,908,808,830',
-'shifangfozu100': '582,908,808,830',
-'shifangfozu101': '582,908,808,830',
-'shifangfozu102': '582,908,808,830',
-'shifangfozu103': '582,908,808,830',
-'shifangfozu104': '582,908,808,830',
-'shifangfozu105': '582,908,808,830',
-'shifangfozu106': '582,908,808,830',
-'shifangfozu107': '582,908,808,830',
-'shifangfozu108': '582,908,808,830',
-'shifangfozu109': '582,908,808,830',
-'shifangfozu110': '582,908,808,830',
-'shifangfozu111': '582,908,808,830',
-'shifangfozu112': '582,908,808,830',
-'shifangfozu113': '582,908,808,830',
-'shifangfozu114': '582,908,808,830',
-'shifangfozu115': '582,908,808,830',
-'shifangfozu116': '582,908,808,830',
-'shifangfozu117': '582,908,808,830',
-'shifangfozu118': '582,908,808,830',
-'shifangfozu119': '582,908,808,830',
-'shifangfozu120': '582,908,808,830',
-'shifangfozu121': '582,908,808,830',
-'shifangfozu122': '582,908,808,830',
-'shifangfozu123': '582,908,808,830',
-'shifangfozu124': '582,908,808,830',
-'shifangfozu125': '582,908,808,830',
-'shifangfozu126': '582,908,808,830',
-'shifangfozu127': '582,908,808,830',
-'shifangfozu128': '582,908,808,830',
-'shifangfozu129': '582,908,808,830',
-'shifangfozu130': '582,908,808,830',
-'shifangfozu131': '582,908,808,830',
-'shifangfozu132': '582,908,808,830',
-'shifangfozu133': '582,908,808,830',
-'shifangfozu134': '582,908,808,830',
-'shifangfozu135': '582,908,808,830',
-'shifangfozu136': '582,908,808,830',
-'shifangfozu137': '582,908,808,830',
-'shifangfozu138': '582,908,808,830'
+'shifangfozu64': '842,877,816,870', # 西芹 橄榄 莱茵鹅 香槟银兔
+'shifangfozu65': '842,877,816,870',
+'shifangfozu66': '842,877,816,870',
+'shifangfozu67': '842,877,816,870',
+'shifangfozu68': '842,877,816,870',
+'shifangfozu69': '842,877,816,870',
+'shifangfozu70': '842,877,816,870',
+'shifangfozu71': '842,877,816,870',
+'shifangfozu72': '842,877,816,870',
+'shifangfozu73': '842,877,816,870',
+'shifangfozu74': '842,877,816,870',
+'shifangfozu75': '842,877,816,870',
+'shifangfozu76': '842,877,816,870',
+'shifangfozu77': '842,877,816,870',
+'shifangfozu78': '842,877,816,870',
+'shifangfozu79': '842,877,816,870',
+'shifangfozu80': '842,877,816,870',
+'shifangfozu81': '842,877,816,870',
+'shifangfozu82': '842,877,816,870',
+'shifangfozu83': '842,877,816,870',
+'shifangfozu84': '560,908,808,830',   # 黑麦 松子 匈牙利白鹅 萨能奶山羊
+'shifangfozu85': '560,908,808,830',
+'shifangfozu86': '560,908,808,830',
+'shifangfozu87': '560,908,808,830',
+'shifangfozu88': '560,908,808,830',
+'shifangfozu89': '560,908,808,830',
+'shifangfozu90': '560,908,808,830',
+'shifangfozu91': '560,908,808,830',
+'shifangfozu92': '560,908,808,830',
+'shifangfozu93': '560,908,808,830',
+'shifangfozu94': '560,908,808,830',
+'shifangfozu95': '560,908,808,830',
+'shifangfozu96': '560,908,808,830',
+'shifangfozu97': '560,908,808,830',
+'shifangfozu98': '560,908,808,830',
+'shifangfozu99': '560,908,808,830',
+'shifangfozu100': '560,908,808,830',
+'shifangfozu101': '560,908,808,830',
+'shifangfozu102': '560,908,808,830',
+'shifangfozu103': '560,908,808,830',
+'shifangfozu104': '560,908,808,830',
+'shifangfozu105': '560,908,808,830',
+'shifangfozu106': '560,908,808,830',
+'shifangfozu107': '560,908,808,830',
+'shifangfozu108': '560,908,808,830',
+'shifangfozu109': '560,908,808,830',
+'shifangfozu110': '560,908,808,830',
+'shifangfozu111': '560,908,808,830',
+'shifangfozu112': '560,908,808,830',
+'shifangfozu113': '560,908,808,830',
+'shifangfozu114': '560,908,808,830',
+'shifangfozu115': '560,908,808,830',
+'shifangfozu116': '560,908,808,830',
+'shifangfozu117': '560,908,808,830',
+'shifangfozu118': '560,908,808,830',
+'shifangfozu119': '560,908,808,830',
+'shifangfozu120': '560,908,808,830',
+'shifangfozu121': '560,908,808,830',
+'shifangfozu122': '560,908,808,830',
+'shifangfozu123': '560,908,808,830',
+'shifangfozu124': '560,908,808,830',
+'shifangfozu125': '560,908,808,830',
+'shifangfozu126': '560,908,808,830',
+'shifangfozu127': '560,908,808,830',
+'shifangfozu128': '560,908,808,830',
+'shifangfozu129': '560,908,808,830',
+'shifangfozu130': '560,908,808,830',
+'shifangfozu131': '560,908,808,830',
+'shifangfozu132': '560,908,808,830',
+'shifangfozu133': '560,908,808,830',
+'shifangfozu134': '560,908,808,830',
+'shifangfozu135': '560,908,808,830',
+'shifangfozu136': '560,908,808,830',
+'shifangfozu137': '560,908,808,830',
+'shifangfozu138': '560,908,808,830'
 }
 
-# 对应Java中的UserInfo模型（用类封装更清晰）
 class UserInfo:
     def __init__(self, user_id: str, name: str, z: str, b: str, e: str, money: int, m_coin: int, k: int):
         self.user_id = user_id
@@ -204,11 +201,9 @@ class UserInfo:
 
 
 def get_user_info(userid, sessionId) -> UserInfo:
-    """执行钓鱼接口请求"""
     xml = f"""<asCommand><msgType>10</msgType><a>null</a><url>http://coml.manorage.com/manoragecom/0816/</url>
     <userId>{userid}</userId><sessionId>{sessionId}</sessionId>
     <b>null</b></asCommand>"""
-    # 去除XML中的换行和空格（与Java拼接格式一致，避免哈希值不一致）
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</asCommand>")
     res = send_request_once(LOGIN_URL, filled_xml)
@@ -244,7 +239,6 @@ def send_request_once(url: str, param: str):
         except Exception as e:
             print(f"请求失败（URL：{url}）：{e}")
 
-# 对应Java的toUnicode方法：将字符串转为十六进制字符拼接
 def to_unicode(param1: str, param2=None) -> str:
     if param2 is None:
         param2 = "-"
@@ -255,50 +249,27 @@ def to_unicode(param1: str, param2=None) -> str:
     return "".join(result)
 
 
-# 对应Java的hash方法（自定义MD5，Python用标准库hashlib实现等价功能）
 def custom_hash(param1: str) -> str:
-    """
-    生成与Java自定义hash等价的MD5十六进制字符串（小写）
-    :param param1: 待哈希字符串
-    :return: 32位小写MD5哈希值
-    """
-    # 编码为UTF-8字节流（Java默认平台编码，此处统一UTF-8保证兼容性）
     param_bytes = param1.encode("utf-8")
     # 计算MD5
     md5_obj = hashlib.md5()
     md5_obj.update(param_bytes)
-    # 返回小写十六进制结果（与Java的toHex输出格式一致）
     return md5_obj.hexdigest()
 
 
-# 对应Java的fillWw方法：填充ww节点到XML中
 def fill_ww(xml: str, tail: str) -> str:
-    """
-    替换XML尾部标签，插入<ww>哈希值</ww>
-    :param xml: 原始XML字符串
-    :param tail: XML尾部标签（如</command>）
-    :return: 填充后的XML字符串
-    """
     # 计算哈希值（对应Java：hash(xml + color)）
     ww_value = custom_hash(xml + COLOR)
     # 替换尾部标签，插入ww节点
     xml_without_tail = xml.replace(tail, "")
     return f"{xml_without_tail}<ww>{ww_value}</ww>{tail}"
 
-
-# 对应Java的send方法：批量发送HTTP POST请求
 def send_request(url: str, param: str, times: int):
-    """
-    批量发送POST请求，忽略响应结果（与Java注释后逻辑一致）
-    :param url: 接口URL
-    :param param: 请求参数（XML字符串）
-    :param times: 调用次数
-    """
     headers = {"Content-Type": "text/plain"}  # 适配XML请求体
     for _ in range(times):
         try:
             # 发送POST请求（超时时间10秒，防止卡死）
-            response = requests.post(
+            requests.post(
                 url=url,
                 data=param.encode("utf-8"),
                 headers=headers,
@@ -307,14 +278,10 @@ def send_request(url: str, param: str, times: int):
         except Exception as e:
             print(f"请求失败（URL：{url}）：{e}")
 
-
-# 对应Java的getFish方法：钓鱼接口调用
 def get_fish(user: UserInfo):
-    """查询钓鱼信息"""
     xml = f"""<command><msgType>2012120301</msgType>
     <userId>{user.user_id}</userId><y>{user.user_id}</y>
     <z>{user.z}</z></command>"""
-    # 去除XML中的换行和空格（与Java拼接格式一致，避免哈希值不一致）
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</command>")
     res = send_request_once(QUERY_FISH, filled_xml)
@@ -327,28 +294,13 @@ def get_fish(user: UserInfo):
             num = int(item.find("num").text)
             if num >= 300:
                 hf = 2
-
-    """执行钓鱼接口请求"""
-    xml = f"""<command>
-<msgType>2012120302</msgType>
-<userId>{user.user_id}</userId>
-<hf>{hf}</hf>
-<y>{user.user_id}</y>
-<z>{user.z}</z>
-</command>"""
-    # 去除XML中的换行和空格（与Java拼接格式一致，避免哈希值不一致）
+    xml = f"""<command><msgType>2012120302</msgType><userId>{user.user_id}</userId><hf>{hf}</hf><y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</command>")
     send_request(FISH_URL, filled_xml, 5)
 
 def enter_plant(user: UserInfo, account):
-    xml = f"""<x>
-  <msgType>40</msgType>
-  <a>{user.user_id}</a>
-  <userId>{user.user_id}</userId>
-  <y>{user.user_id}</y>
-  <z>{user.z}</z>
-</x>"""
+    xml = f"""<x><msgType>40</msgType><a>{user.user_id}</a><userId>{user.user_id}</userId><y>{user.user_id}</y><z>{user.z}</z></x>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</x>")
     res = send_request_once(ENTER_PLANT, filled_xml)
@@ -368,13 +320,7 @@ def enter_plant(user: UserInfo, account):
     refresh_plant(user, account)
 
 def refresh_plant(user: UserInfo, account):
-    xml = f"""<x>
-      <msgType>40</msgType>
-      <a>{user.user_id}</a>
-      <userId>{user.user_id}</userId>
-      <y>{user.user_id}</y>
-      <z>{user.z}</z>
-    </x>"""
+    xml = f"""<x><msgType>40</msgType><a>{user.user_id}</a><userId>{user.user_id}</userId><y>{user.user_id}</y><z>{user.z}</z></x>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</x>")
     res = send_request_once(ENTER_PLANT, filled_xml)
@@ -762,10 +708,10 @@ def player_fish_level_two(user: UserInfo, account):
     res = send_request_once(PLAYER_EXCHANGED_INIT, filled_xml)
     root = ET.fromstring(res)
     two = root.find("fishStock").find("two").text
-    if int(two) > 300:
+    if int(two) >= 300:
         account_list.add(account)
 
-def player_exchanged_init(user: UserInfo):
+def player_exchanged_init(user: UserInfo, account):
     xml = f"""<command><msgType>2012120305</msgType><userId>{user.user_id}</userId><type>2</type><y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
     filled_xml = fill_ww(xml, "</command>")
@@ -773,11 +719,18 @@ def player_exchanged_init(user: UserInfo):
     root = ET.fromstring(res)
     items = root.findall("item")
     for item in items:
-        if fish_item_set.__contains__(item.find("id").text):
-            stockNum = int(item.find("stockNum").text)
-            keyId = item.find("keyId").text
-            for i in range(stockNum):
-                player_exchanged_fishing_item(user, keyId)
+        if account == "qiqiwo321":
+            if fish_item_set1.__contains__(item.find("id").text):
+                stockNum = int(item.find("stockNum").text)
+                keyId = item.find("keyId").text
+                for i in range(stockNum):
+                    player_exchanged_fishing_item(user, keyId)
+        else:
+            if fish_item_set.__contains__(item.find("id").text):
+                stockNum = int(item.find("stockNum").text)
+                keyId = item.find("keyId").text
+                for i in range(stockNum):
+                    player_exchanged_fishing_item(user, keyId)
 
 def player_exchanged_fishing_item(user: UserInfo, keyId):
     xml = f"""<command><msgType>2012120304</msgType><userId>{user.user_id}</userId><type>2</type><keyId>{keyId}</keyId><y>{user.user_id}</y><z>{user.z}</z></command>"""
@@ -845,10 +798,7 @@ def exec_action(user: UserInfo):
         get_collection(user, 45, 3)
         get_collection(user, 25, 3)
 
-
-
 def open_package(user: UserInfo):
-    """执行狩猎接口请求"""
     xml = f"""<getUserPackage><msgType>50</msgType><userId>{user.user_id}</userId>
         <y>{user.user_id}</y><z>{user.z}</z></getUserPackage>"""
     xml = "".join(xml.split())
@@ -882,7 +832,6 @@ def check_item(item_arr, s, res):
             item_arr.append((item.find("a").text, item.find("b").text, item.find("c").text))
 
 def to_store_item(user: UserInfo, item_id, item_num, f):
-    """执行狩猎接口请求"""
     xml = f"""<command><msgType>2530</msgType><a>{user.user_id}</a><b/><c>0</c><d>{item_id}</d><e>{item_num}</e><f>{f}</f>
     <g>0</g><y>{user.user_id}</y><z>{user.z}</z></command>"""
     xml = "".join(xml.split())
@@ -962,7 +911,6 @@ def name_to_unicode(param1: str, param2: str = "-") -> str:
     return res
 
 headers = {"Content-Type": "application/x-www-form-urlencoded"}
-# 主函数（对应Java的main方法）
 def main(account, method_type):
     try:
         data = {
@@ -986,7 +934,7 @@ def main(account, method_type):
                         # 每日采集，狩猎，钓鱼
                         exec_action(user)
                         # 交换鱼
-                        player_exchanged_init(user)
+                        player_exchanged_init(user, account)
                     elif method_type == 2:
                         # 商会存储物品
                         store_item(user)
@@ -1039,7 +987,7 @@ def caculate_money(account):
                     a = len(match[0])
                     b = match[0][55:a - 2].split("&sessionId=")
                     user = get_user_info(b[0], b[1])
-                    if user.money < 500000:
+                    if user.money < 1000000:
                         print(f"{account}, {user.name}, {user.b}, {user.e}")
                         user_id_list.append(user.user_id)
                     session.close()
@@ -1478,24 +1426,45 @@ def assign_money():
     except Exception as e:
         print(f"程序执行失败：{e}")
 
+count_item={'611': 55200, '629': 39700, '709': 2900, '727': 900, '728': 3100, '631': 21500, '633': 5000, '729': 500, '809': 6000, '720': 2000, '723': 3500, '609': 2000, '701': 12000, '724': 2000, '949': 2500, '570': 6000, '725': 3500, '731': 1000, '840': 4000, '687': 22600, '583': 11600, '586': 60000, '1531': 1000, '815': 6000, '716': 500, '1526': 1000, '565': 6000, '581': 6000, '683': 6000, '669': 7500, '1529': 500, '574': 4000, '838': 4000, '817': 4000, '851': 2000, '699': 6000, '635': 4000, '615': 12500, '696': 2000, '862': 2000, '831': 4000, '572': 1000, '692': 3000, '867': 1200, '726': 600, '694': 2400, '889': 1200}
 
-def test():
+def check_main_user_item():
+    for k, v in count_item.items():
+        num = MAIN_USER_ITEM_INFO.get(k, 0)
+        if num < v:
+            need_transf_item[k] = v - num
+
+def to_store_nobility_item():
     try:
-        with open("D://project//zysd//taskInfo.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                row = line.split("ˇ")
-                if row[8] == '2':
-                    account_list.add(row[0])
-    except FileNotFoundError:
-        print(f"文件不存")
-        return []
+        data = {
+            "userloginid": "qiqiwo321",
+            "pword": "13934670751abc",
+            "auto_login": False
+        }
+        session = requests.Session()
+        login_response = session.post("http://www.139up.com/userLogin.upstapp", headers=headers, data=data)
+        if login_response.status_code == 200:
+            profile_response = session.get("http://www.139up.com/zysd.jsp")
+            if profile_response.status_code == 200:
+                pattern = r'http://coml.manorage.com/manoragecom/index.html[^\s]+'
+                match = re.findall(pattern, profile_response.text)
+                if match:
+                    a = len(match[0])
+                    b = match[0][55:a - 2].split("&sessionId=")
+                    main_user = get_user_info(b[0], b[1])
+                    init_main_user_package(main_user)
+                    # 校验物品数量
+                    check_main_user_item()
+                    if len(need_transf_item) > 0:
+                        print(need_transf_item)
+                        return
+                    for k, v in count_item.items():
+                        quality = generate_item_quality(k)
+                        to_store_item(main_user, k, v, quality)
+        session.close()
     except Exception as e:
-        print(f"解析失败：{e}")
-        return []
-    print(account_list)
+        print(f"程序执行失败：{e}")
+
 
 trans_item_set = set()
 # trans_item_set.add("561")  # 黑麦
@@ -1523,12 +1492,11 @@ trans_item_set = set()
 # trans_item_set.add("701")  # 火鸡肉
 # trans_item_set.add("692")  # 白火鸡肉
 # trans_item_set.add("593")  # 南瓜
-# trans_item_set.add("582")  # 甜菜种子
+trans_item_set.add("582")  # 甜菜种子
 # trans_item_set.add("583")  # 甜菜
 # trans_item_set.add("100281")  # 糖
 # trans_item_set.add("840")  # 帕尔玛猪肉
 # trans_item_set.add("817")  # 莱茵鹅
-# trans_item_set.add("709")  # 白玉涅
 # trans_item_set.add("611")  # 塞米龙
 # trans_item_set.add("629")  # 苏维尼翁
 # trans_item_set.add("630")  # 梅洛种子
@@ -1564,6 +1532,7 @@ trans_item_set = set()
 # trans_item_set.add("1528")  # 杜松子
 # trans_item_set.add("909")  # 松子
 # trans_item_set.add("1757")  # 无花果
+trans_item_set.add("838")  # 芦笋
 # trans_item_set.add("851")  # 秋葵
 # trans_item_set.add("1751")  # 鹌鹑
 # trans_item_set.add("874")  # 雪兔
@@ -1574,7 +1543,8 @@ trans_item_set = set()
 # trans_item_set.add("882")  # 黑加仑子
 # trans_item_set.add("1771")  # 石榴
 # trans_item_set.add("100595")  # 覆盆子
-# trans_item_set.add("728")  # 密斯卡代勒
+trans_item_set.add("728")  # 密斯卡代勒
+trans_item_set.add("709")  # 白玉涅
 # trans_item_set.add("1526")  # 迷迭香
 # trans_item_set.add("1531")  # 豆蔻
 # trans_item_set.add("1527")  # 肉桂
@@ -1614,10 +1584,8 @@ trans_item_set = set()
 # trans_item_set.add("1474")  # 红玫瑰
 # trans_item_set.add("1476")  # 黄玫瑰
 # trans_item_set.add("1484")  # 白玫瑰
-# trans_item_set.add("1009")  # 扩充魔法齿轮
 
 fish_item_set = set()
-fish_item_set.add("1009")  # 扩充魔法齿轮
 fish_item_set.add("1514")  # 海蓝宝石
 fish_item_set.add("200051")  # 红宝石
 fish_item_set.add("200052")  # 石料
@@ -1627,6 +1595,13 @@ fish_item_set.add("102002")  # 鹿花菌
 fish_item_set.add("11100514")  # 琉璃苣
 fish_item_set.add("11300011")  # 毁灭天使
 fish_item_set.add("11300012")  # 撒旦的召唤
+
+fish_item_set1 = set()
+fish_item_set1.add("1009")  # 扩充魔法齿轮
+fish_item_set1.add("102002")  # 鹿花菌
+fish_item_set1.add("11100514")  # 琉璃苣
+fish_item_set1.add("11300011")  # 毁灭天使
+fish_item_set1.add("11300012")  # 撒旦的召唤
 
 account_list = set()
 

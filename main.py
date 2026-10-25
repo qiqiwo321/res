@@ -2,10 +2,10 @@ import sex
 
 
 if __name__ == "__main__":
-    sex.main("qiqiwo321", 3)
-    sex.process_food()  # 加工
+    # sex.main("qiqiwo321", 3)
+    # sex.process_food()  # 加工
     # sex.harvest_and_sell_new_account_item()
-    # sex.shouhuo(0)
+    sex.shouhuo(0)
     # sex.exec_task()
 
     # sex.main("qiqiwo321", 10)
@@ -26,6 +26,10 @@ if __name__ == "__main__":
     # sex.main("shifangfozu227", 11)
     # sex.reg_new_account()
     # sex.main("qiqiwo321", 10) # 获取所有商会物品
+
+    # sex.add_earth_and_cage()
+
+    # sex.tansform_money_item()
 
 
 
